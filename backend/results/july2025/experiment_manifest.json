@@ -1,0 +1,1222 @@
+{
+  "experiment": "july2025",
+  "phase": 2,
+  "started_at": "2026-09-27T21:40:14+00:00",
+  "config": {
+    "name": "july2025",
+    "valid_start": "2025-07-01",
+    "valid_end": "2025-07-31",
+    "output_dir": "D:\\ps81\\backend\\results\\july2025",
+    "cycles": [
+      0
+    ],
+    "lead_days": [
+      1,
+      2,
+      3
+    ],
+    "models": [
+      "GFS",
+      "ECMWF"
+    ],
+    "train_fraction": 0.75,
+    "thresholds_mm": [
+      2.5,
+      15.6,
+      64.5
+    ],
+    "epsilon_mm": 0.1,
+    "min_days_for_skill_claim": 20,
+    "min_test_days": 7,
+    "bootstrap_samples": 2000,
+    "seed": 20250701,
+    "ecmwf_base_url": "https://ecmwf-forecasts.s3.eu-central-1.amazonaws.com",
+    "imd_source": "archive",
+    "http_retries": 8,
+    "http_min_interval": 0.25
+  },
+  "region": {
+    "name": "India",
+    "lat_min": 5.0,
+    "lat_max": 38.0,
+    "lon_min": 68.0,
+    "lon_max": 98.0,
+    "resolution": 0.25,
+    "shape": [
+      133,
+      121
+    ]
+  },
+  "variable": "precipitation",
+  "units": "mm per 24 h",
+  "observation_convention": {
+    "route": "archive",
+    "rule": "IMD archive day label D covers 03 UTC D-1 -> 03 UTC D (24 h ending 08:30 IST on D)",
+    "verified_by": [
+      "real-time file for D is published before 08:30 IST on D+1 (Phase 1)",
+      "real-time label D == archive label D (r=0.997/0.994, mean|diff| 0.18/0.15 mm, 5 & 10 Jul 2025)",
+      "per-run forecast pattern-correlation check (observation_convention_check)"
+    ],
+    "correction_note": "Phase 1 assumed archive label D = 03 UTC D -> D+1; corrected on 2026-09-28 after the evidence above showed a one-day offset",
+    "period_end_offset_hours": 3.0
+  },
+  "forecast_accumulation": "rain_24h = acc(end_lead) - acc(start_lead); acc(0) = 0; windows end 03 UTC",
+  "data_sources": {
+    "GFS": "NOAA GFS 0.25 deg pgrb2, https://noaa-gfs-bdp-pds.s3.amazonaws.com (APCP 0-N h accumulation)",
+    "ECMWF": "ECMWF IFS 0.25 deg oper, ECMWF Open Data archive https://ecmwf-forecasts.s3.eu-central-1.amazonaws.com (tp)",
+    "IMD": "IMD Pune 0.25 deg gridded daily rainfall"
+  },
+  "tigge": {
+    "route": "ECMWF TIGGE (MARS Web API)",
+    "credentials_present": false,
+    "credential_required": "ECMWF account + TIGGE licence + API key (~/.ecmwfapirc or ECMWF_API_URL/KEY/EMAIL)",
+    "precipitation_step_hours": 6,
+    "imd_window_compatible": false,
+    "used": false,
+    "reason": "6-hourly precipitation steps cannot bracket IMD 03 UTC windows from 00/12 UTC cycles; ECMWF Open Data AWS archive (3-hourly) used instead"
+  },
+  "observations": {
+    "status": "AVAILABLE",
+    "source": "India Meteorological Department (IMD) Pune gridded daily rainfall 0.25 deg",
+    "routes": [
+      "archive"
+    ],
+    "day_labels": [
+      "2025-06-30",
+      "2025-08-01"
+    ],
+    "raw_files": [
+      "D:\\ps81\\backend\\data\\raw\\imd\\archive\\rain\\2025.grd"
+    ],
+    "processed_file": "D:\\ps81\\backend\\data\\processed\\observations\\imd_rainfall_20250630_20250801.nc",
+    "units": "mm",
+    "valid_points_per_day": 4964
+  },
+  "forecast_cycles": [
+    "2025-06-28T00:00:00",
+    "2025-06-29T00:00:00",
+    "2025-06-30T00:00:00",
+    "2025-07-01T00:00:00",
+    "2025-07-02T00:00:00",
+    "2025-07-03T00:00:00",
+    "2025-07-04T00:00:00",
+    "2025-07-05T00:00:00",
+    "2025-07-06T00:00:00",
+    "2025-07-07T00:00:00",
+    "2025-07-08T00:00:00",
+    "2025-07-09T00:00:00",
+    "2025-07-10T00:00:00",
+    "2025-07-11T00:00:00",
+    "2025-07-12T00:00:00",
+    "2025-07-13T00:00:00",
+    "2025-07-14T00:00:00",
+    "2025-07-15T00:00:00",
+    "2025-07-16T00:00:00",
+    "2025-07-17T00:00:00",
+    "2025-07-18T00:00:00",
+    "2025-07-19T00:00:00",
+    "2025-07-20T00:00:00",
+    "2025-07-21T00:00:00",
+    "2025-07-22T00:00:00",
+    "2025-07-23T00:00:00",
+    "2025-07-24T00:00:00",
+    "2025-07-25T00:00:00",
+    "2025-07-26T00:00:00",
+    "2025-07-27T00:00:00",
+    "2025-07-28T00:00:00",
+    "2025-07-29T00:00:00",
+    "2025-07-30T00:00:00"
+  ],
+  "forecast_fetch": [
+    {
+      "model": "GFS",
+      "init_time": "2025-06-28T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-06-29T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-06-30T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-01T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-02T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-03T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-04T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-05T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-06T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-07T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-08T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-09T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-10T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-11T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-12T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-13T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-14T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-15T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-16T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-17T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-18T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-19T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-20T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-21T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-22T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-23T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-24T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-25T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-26T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-27T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-28T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-29T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "GFS",
+      "init_time": "2025-07-30T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-06-28T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-06-29T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-06-30T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-01T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-02T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-03T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-04T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-05T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-06T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-07T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-08T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-09T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-10T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-11T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-12T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-13T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-14T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-15T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-16T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-17T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-18T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-19T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-20T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-21T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-22T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-23T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-24T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-25T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-26T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-27T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-28T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-29T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    },
+    {
+      "model": "ECMWF",
+      "init_time": "2025-07-30T00:00:00",
+      "lead_hours": [
+        3,
+        27,
+        51,
+        75
+      ],
+      "status": "AVAILABLE",
+      "message": "4 raw GRIB messages (0 downloaded, 4 cached)",
+      "downloads": 0,
+      "cache_hits": 4
+    }
+  ],
+  "failed_downloads": [],
+  "models_available": [
+    "GFS",
+    "ECMWF"
+  ],
+  "models_unavailable": [],
+  "alignment": {
+    "aligned_samples": 93,
+    "samples_per_lead_day": {
+      "1": 31,
+      "2": 31,
+      "3": 31
+    },
+    "valid_dates": [
+      "2025-07-01",
+      "2025-07-02",
+      "2025-07-03",
+      "2025-07-04",
+      "2025-07-05",
+      "2025-07-06",
+      "2025-07-07",
+      "2025-07-08",
+      "2025-07-09",
+      "2025-07-10",
+      "2025-07-11",
+      "2025-07-12",
+      "2025-07-13",
+      "2025-07-14",
+      "2025-07-15",
+      "2025-07-16",
+      "2025-07-17",
+      "2025-07-18",
+      "2025-07-19",
+      "2025-07-20",
+      "2025-07-21",
+      "2025-07-22",
+      "2025-07-23",
+      "2025-07-24",
+      "2025-07-25",
+      "2025-07-26",
+      "2025-07-27",
+      "2025-07-28",
+      "2025-07-29",
+      "2025-07-30",
+      "2025-07-31"
+    ],
+    "lead_times": {
+      "1": [
+        "3-27 h"
+      ],
+      "2": [
+        "27-51 h"
+      ],
+      "3": [
+        "51-75 h"
+      ]
+    },
+    "grid": {
+      "latitude": 133,
+      "longitude": 121
+    },
+    "missing_forecast_windows": [],
+    "missing_observation_windows": [],
+    "file": "D:\\ps81\\backend\\results\\july2025\\aligned_samples.nc"
+  },
+  "observation_convention_check": {
+    "GFS": {
+      "mean_pattern_correlation_by_label_offset_days": {
+        "-1": 0.2848500163147586,
+        "0": 0.44197450808495387,
+        "1": 0.2973884188068476
+      },
+      "n_samples": 31,
+      "best_offset_days": "0"
+    },
+    "ECMWF": {
+      "mean_pattern_correlation_by_label_offset_days": {
+        "-1": 0.3076449661231641,
+        "0": 0.5312838029566327,
+        "1": 0.31489534173844685
+      },
+      "n_samples": 31,
+      "best_offset_days": "0"
+    },
+    "convention_consistent": true
+  },
+  "split": {
+    "train_valid_dates": [
+      "2025-07-01",
+      "2025-07-23"
+    ],
+    "test_valid_dates": [
+      "2025-07-24",
+      "2025-07-31"
+    ],
+    "n_train_days": 23,
+    "n_test_days": 8,
+    "n_train_samples": 69,
+    "n_test_samples": 24,
+    "boundary_utc": "2025-07-23T03:00:00"
+  },
+  "training_period": [
+    "2025-06-30T03:00:00.000000000",
+    "2025-07-23T03:00:00.000000000"
+  ],
+  "test_period": [
+    "2025-07-23T03:00:00.000000000",
+    "2025-07-31T03:00:00.000000000"
+  ],
+  "label": "HISTORICAL EXPERIMENT",
+  "metrics": [
+    "mae",
+    "rmse",
+    "bias",
+    "precision@2.5mm",
+    "recall@2.5mm",
+    "f1@2.5mm",
+    "csi@2.5mm",
+    "precision@15.6mm",
+    "recall@15.6mm",
+    "f1@15.6mm",
+    "csi@15.6mm",
+    "precision@64.5mm",
+    "recall@64.5mm",
+    "f1@64.5mm",
+    "csi@64.5mm"
+  ],
+  "n_test_scored_points": 119136,
+  "outputs": [
+    "aligned_samples.nc",
+    "blend_comparison.csv",
+    "error_map.png",
+    "experiment_manifest.json",
+    "model_scores.csv",
+    "rainfall_forecast_vs_imd.png",
+    "report.md",
+    "skill_comparison.png",
+    "test_scores.csv",
+    "weight_map.png",
+    "weights.csv"
+  ],
+  "status": "COMPLETED",
+  "finished_at": "2026-09-27T21:41:08+00:00",
+  "summary": [
+    "Experiment: july2025   [HISTORICAL EXPERIMENT]",
+    "Models available: GFS, ECMWF",
+    "Aligned samples: 93 (lead days 1, 2, 3), train days 23, test days 8",
+    "Test period (IMD labels): 2025-07-24 .. 2025-07-31",
+    "",
+    "TEST PERIOD, all lead days pooled (mm / 24 h, common grid points only):",
+    "Best individual model by MAE: GFS (9.407)",
+    "Other individual model ECMWF MAE: 9.485",
+    "Equal blend MAE: 8.762",
+    "Inverse-error blend MAE: 8.761",
+    "Regional adaptive blend MAE: 8.761",
+    "Blend improvement versus best individual: best blend = Regional blend, +6.87% MAE change (MAE difference -0.646 mm, 95% CI [-0.837, -0.451], 8 test days) -> better (95% CI < 0)",
+    "The blend beat the best individual model on the independent test period.",
+    "Inverse-error blend vs equal blend: MAE difference -0.0004 mm (95% CI [-0.0018, +0.0011])",
+    "Regional blend vs equal blend: MAE difference -0.0006 mm (95% CI [-0.0037, +0.0036])",
+    "-> Skill-based weights add no measurable benefit over equal weighting here (|diff| < 0.01 mm); the blend gain comes from averaging the two models.",
+    "Mean bias (forecast - IMD): GFS -0.646, ECMWF +0.939, Equal blend +0.147, Inverse-error blend +0.148, Regional blend +0.145",
+    "Heavy rain (>= 64.5 mm/24 h) CSI: best individual ECMWF 0.095, best blend Regional blend 0.070 -> blend is LOWER (averaging smooths extremes)",
+    "",
+    "IMD period check (lead-day-1 pattern correlation by label offset -1/0/+1 day): GFS: -1:0.285, 0:0.442, 1:0.297; ECMWF: -1:0.308, 0:0.531, 1:0.315",
+    "Convention consistent with data: YES"
+  ]
+}

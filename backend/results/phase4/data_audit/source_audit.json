@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-09-28T02:58:45+00:00",
+  "gfs": {
+    "2021": {
+      "0p25_idx": true,
+      "1p00_idx": true,
+      "apcp_0_27h": true
+    },
+    "2022": {
+      "0p25_idx": true,
+      "1p00_idx": true,
+      "apcp_0_27h": true
+    },
+    "2023": {
+      "0p25_idx": true,
+      "1p00_idx": true,
+      "apcp_0_27h": true
+    },
+    "2024": {
+      "0p25_idx": true,
+      "1p00_idx": true,
+      "apcp_0_27h": true
+    },
+    "2025": {
+      "0p25_idx": true,
+      "1p00_idx": true,
+      "apcp_0_27h": true
+    }
+  },
+  "ecmwf_mirror": {
+    "first_dates": [
+      "20230118/",
+      "20230119/",
+      "20230120/"
+    ],
+    "20230710": {
+      "20230710/00z/0p4-beta/oper/": {
+        "steps_first": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "step_interval_h": 3,
+        "max_step": 240,
+        "has_tp": true
+      }
+    },
+    "20240710": {
+      "20240710/00z/aifs/0p25/oper/": {
+        "steps_first": [
+          0,
+          6,
+          12,
+          18,
+          24,
+          30
+        ],
+        "step_interval_h": 6,
+        "max_step": 360,
+        "has_tp": true
+      },
+      "20240710/00z/ifs/0p25/oper/": {
+        "steps_first": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "step_interval_h": 3,
+        "max_step": 240,
+        "has_tp": true
+      },
+      "20240710/00z/ifs/0p4-beta/oper/": {
+        "steps_first": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "step_interval_h": 3,
+        "max_step": 240,
+        "has_tp": true
+      }
+    },
+    "20250710": {
+      "20250710/00z/aifs-single/0p25/oper/": {
+        "steps_first": [
+          0,
+          6,
+          12,
+          18,
+          24,
+          30
+        ],
+        "step_interval_h": 6,
+        "max_step": 360,
+        "has_tp": true
+      },
+      "20250710/00z/ifs/0p25/oper/": {
+        "steps_first": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "step_interval_h": 3,
+        "max_step": 360,
+        "has_tp": true
+      }
+    }
+  },
+  "weatherbench2": {
+    "graphcast_2018": {
+      "accessible": true,
+      "precip_variables": [
+        "total_precipitation_24hr",
+        "total_precipitation_6hr"
+      ],
+      "n_time": 1668,
+      "n_lead": 40
+    },
+    "graphcast_2020": {
+      "accessible": true,
+      "precip_variables": [
+        "total_precipitation_24hr",
+        "total_precipitation_6hr"
+      ],
+      "n_time": 1672,
+      "n_lead": 40
+    },
+    "graphcast_2022": {
+      "accessible": true,
+      "precip_variables": [
+        "total_precipitation_24hr",
+        "total_precipitation_6hr"
+      ],
+      "n_time": 1580,
+      "n_lead": 40
+    },
+    "hres": {
+      "accessible": true,
+      "precip_variables": [
+        "total_precipitation",
+        "total_precipitation_24hr",
+        "total_precipitation_6hr"
+      ],
+      "n_time": 5114,
+      "n_lead": 41
+    },
+    "era5": {
+      "accessible": true,
+      "precip_variables": [
+        "total_precipitation_12hr",
+        "total_precipitation_24hr",
+        "total_precipitation_6hr"
+      ],
+      "n_time": 93544,
+      "n_lead": null
+    },
+    "pangu": {
+      "accessible": true,
+      "precip_variables": [],
+      "n_time": 3652,
+      "n_lead": 40
+    },
+    "neuralgcm_2020": {
+      "accessible": true,
+      "precip_variables": [],
+      "n_time": 732,
+      "n_lead": 31
+    },
+    "fuxi_2020": {
+      "accessible": true,
+      "precip_variables": [
+        "total_precipitation_24hr_from_6hr",
+        "total_precipitation_6hr"
+      ],
+      "n_time": 702,
+      "n_lead": 60
+    }
+  },
+  "noaa_mlwp": {
+    "graphcast_file_bytes": [
+      9315783477,
+      9317258409
+    ],
+    "steps": "6 h (README)"
+  },
+  "imd": {
+    "archive_page_reachable": true,
+    "cached_archives": [
+      "2023.grd",
+      "2024.grd",
+      "2025.grd"
+    ]
+  }
+}

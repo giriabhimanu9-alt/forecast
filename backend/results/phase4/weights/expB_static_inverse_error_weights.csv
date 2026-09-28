@@ -1,0 +1,7 @@
+method,lead_day,model,weight,training_error,n_points
+phase2_inverse_error,1,GraphCast,0.659442,1.625840,33916
+phase2_inverse_error,1,HRES,0.340558,3.241842,33916
+phase2_inverse_error,2,GraphCast,0.592982,2.738207,33916
+phase2_inverse_error,2,HRES,0.407018,4.034967,33916
+phase2_inverse_error,3,GraphCast,0.597309,3.167987,33916
+phase2_inverse_error,3,HRES,0.402691,4.747383,33916

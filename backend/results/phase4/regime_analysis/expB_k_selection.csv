@@ -1,0 +1,4 @@
+feature_set,k,silhouette,stability_ari,min_cluster_size,cluster_sizes,n_components,eligible,selected,selection_note
+rain,2,0.3535,0.9642,112,"[112, 254]",4,True,True,
+rain,3,0.2628,0.7996,105,"[105, 120, 141]",4,True,False,
+rain,4,0.2605,0.6989,41,"[41, 64, 126, 135]",4,True,False,

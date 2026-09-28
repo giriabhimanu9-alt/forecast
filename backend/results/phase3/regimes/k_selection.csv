@@ -1,0 +1,4 @@
+k,silhouette,stability_ari,min_cluster_size,cluster_sizes,n_components,eligible,selected,selection_note,val_mae_regime
+2,0.3104,0.8763,21,"[21, 30]",4,True,False,,7.7054
+3,0.3023,0.5774,11,"[18, 22, 11]",4,False,False,,7.7018
+4,0.3256,0.7076,9,"[9, 13, 18, 11]",4,True,True,,7.7018

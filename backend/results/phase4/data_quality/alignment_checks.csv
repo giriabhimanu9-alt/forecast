@@ -1,0 +1,10 @@
+experiment,season,model,samples,all_windows_24h,all_windows_end_03utc,init_before_window,pattern_corr_label_offsets,best_label_offset_days,imd_convention_passes,all_windows_end_00utc
+A,2023,GFS,366,True,True,True,"{""-1"": 0.31483394294468176, ""0"": 0.4262587832454455, ""1"": 0.3133249279150891}",0,True,
+A,2023,ECMWF,366,True,True,True,"{""-1"": 0.37300438562741267, ""0"": 0.512567816247078, ""1"": 0.3647417073343834}",0,True,
+A,2024,GFS,366,True,True,True,"{""-1"": 0.30513943518062175, ""0"": 0.44052955930320553, ""1"": 0.3058069720194264}",0,True,
+A,2024,ECMWF,366,True,True,True,"{""-1"": 0.3255533838998666, ""0"": 0.49331961677332375, ""1"": 0.3391289171783821}",0,True,
+A,2025,GFS,366,True,True,True,"{""-1"": 0.3065904695386921, ""0"": 0.42348768011927257, ""1"": 0.282099537412751}",0,True,
+A,2025,ECMWF,366,True,True,True,"{""-1"": 0.3106369034634191, ""0"": 0.4897232305036713, ""1"": 0.298297136716278}",0,True,
+B,2018,"GraphCast,HRES",366,True,,True,,,,True
+B,2020,"GraphCast,HRES",366,True,,True,,,,True
+B,2022,"GraphCast,HRES",366,True,,True,,,,True

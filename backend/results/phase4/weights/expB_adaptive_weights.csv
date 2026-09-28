@@ -1,0 +1,145 @@
+feature_set,method,regime,regime_name,lead_day,region,model,weight,training_error,error_metric,sample_count,n_points,level,training_start,training_end
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,GraphCast,0.603872,0.614133,mae,62,1798,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,HRES,0.396128,0.988651,mae,62,1798,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,GraphCast,0.624098,0.570438,mae,62,1860,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,HRES,0.375902,1.013108,mae,62,1860,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,GraphCast,0.617680,0.778215,mae,62,1736,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,HRES,0.382320,1.318852,mae,62,1736,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,GraphCast,0.634830,1.381044,mae,62,1178,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,HRES,0.365170,2.474726,mae,62,1178,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,GraphCast,0.664393,1.172425,mae,62,1302,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,HRES,0.335607,2.418989,mae,62,1302,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,GraphCast,0.723002,1.973972,mae,62,744,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,HRES,0.276998,5.313338,mae,62,744,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,GraphCast,0.613664,1.186055,mae,182,5278,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,HRES,0.386336,1.942800,mae,182,5278,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,GraphCast,0.673018,1.537091,mae,182,5460,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,HRES,0.326982,3.269581,mae,182,5460,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,GraphCast,0.665463,2.457867,mae,182,5096,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,HRES,0.334537,4.988120,mae,182,5096,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,GraphCast,0.664836,2.465818,mae,182,3458,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,HRES,0.335164,4.989599,mae,182,3458,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,GraphCast,0.663804,1.418245,mae,182,3822,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,HRES,0.336196,2.897710,mae,182,3822,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GraphCast,0.669391,2.691685,mae,182,2184,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,HRES,0.330609,5.552377,mae,182,2184,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,GraphCast,0.556186,0.854432,mae,61,1769,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,HRES,0.443814,1.096091,mae,61,1769,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,GraphCast,0.531384,1.093546,mae,61,1830,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,HRES,0.468616,1.253416,mae,61,1830,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,GraphCast,0.533942,1.271926,mae,61,1708,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,HRES,0.466058,1.471756,mae,61,1708,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,GraphCast,0.581009,2.149120,mae,61,1159,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,HRES,0.418991,3.018819,mae,61,1159,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,GraphCast,0.553855,2.087605,mae,61,1281,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,HRES,0.446145,2.615750,mae,61,1281,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,GraphCast,0.658812,3.695797,mae,61,732,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,HRES,0.341188,7.229443,mae,61,732,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,GraphCast,0.559466,1.734905,mae,183,5307,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,HRES,0.440534,2.230282,mae,183,5307,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,GraphCast,0.597270,2.884129,mae,183,5490,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,HRES,0.402730,4.325615,mae,183,5490,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,GraphCast,0.607831,4.171831,mae,183,5124,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,HRES,0.392169,6.521014,mae,183,5124,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,GraphCast,0.586424,4.029441,mae,183,3477,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,HRES,0.413576,5.755288,mae,183,3477,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,GraphCast,0.582045,2.489472,mae,183,3843,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,HRES,0.417955,3.506098,mae,183,3843,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GraphCast,0.622057,4.243469,mae,183,2196,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,HRES,0.377943,7.048917,mae,183,2196,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,GraphCast,0.555156,0.910629,mae,51,1479,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,HRES,0.444844,1.161243,mae,51,1479,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,GraphCast,0.522510,0.928724,mae,51,1530,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,HRES,0.477490,1.025715,mae,51,1530,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,GraphCast,0.531433,1.300979,mae,51,1428,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,HRES,0.468567,1.488944,mae,51,1428,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,GraphCast,0.579257,2.294202,mae,51,969,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,HRES,0.420743,3.196214,mae,51,969,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,GraphCast,0.559862,2.346309,mae,51,1071,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,HRES,0.440138,3.011745,mae,51,1071,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,GraphCast,0.651099,4.405579,mae,51,612,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,HRES,0.348901,8.308044,mae,51,612,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,GraphCast,0.559998,1.982641,mae,193,5597,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,HRES,0.440002,2.550616,mae,193,5597,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,GraphCast,0.600236,3.443354,mae,193,5790,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,HRES,0.399764,5.220259,mae,193,5790,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,GraphCast,0.612595,4.775439,mae,193,5404,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,HRES,0.387405,7.609438,mae,193,5404,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,GraphCast,0.587640,4.445372,mae,193,3667,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,HRES,0.412360,6.377463,mae,193,3667,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,GraphCast,0.582537,2.888849,mae,193,4053,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,HRES,0.417463,4.070714,mae,193,4053,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GraphCast,0.637222,4.549953,mae,193,2316,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,HRES,0.362778,8.067673,mae,193,2316,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,GraphCast,0.603872,0.614133,mae,62,1798,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,HRES,0.396128,0.988651,mae,62,1798,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,GraphCast,0.624098,0.570438,mae,62,1860,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,HRES,0.375902,1.013108,mae,62,1860,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,GraphCast,0.617680,0.778215,mae,62,1736,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,HRES,0.382320,1.318852,mae,62,1736,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,GraphCast,0.634830,1.381044,mae,62,1178,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,HRES,0.365170,2.474726,mae,62,1178,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,GraphCast,0.664393,1.172425,mae,62,1302,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,HRES,0.335607,2.418989,mae,62,1302,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,GraphCast,0.723002,1.973972,mae,62,744,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,HRES,0.276998,5.313338,mae,62,744,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,GraphCast,0.607995,0.467337,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,HRES,0.392005,0.656566,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,GraphCast,0.607995,0.467337,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,HRES,0.392005,0.656566,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,GraphCast,0.607995,0.467337,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,HRES,0.392005,0.656566,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,GraphCast,0.607995,0.467337,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,HRES,0.392005,0.656566,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,GraphCast,0.607995,0.467337,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,HRES,0.392005,0.656566,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GraphCast,0.607995,0.467337,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,HRES,0.392005,0.656566,1 - CSI@64.5mm,182,25298,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,GraphCast,0.556186,0.854432,mae,61,1769,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,HRES,0.443814,1.096091,mae,61,1769,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,GraphCast,0.531384,1.093546,mae,61,1830,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,HRES,0.468616,1.253416,mae,61,1830,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,GraphCast,0.533942,1.271926,mae,61,1708,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,HRES,0.466058,1.471756,mae,61,1708,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,GraphCast,0.581009,2.149120,mae,61,1159,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,HRES,0.418991,3.018819,mae,61,1159,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,GraphCast,0.553855,2.087605,mae,61,1281,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,HRES,0.446145,2.615750,mae,61,1281,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,GraphCast,0.658812,3.695797,mae,61,732,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,HRES,0.341188,7.229443,mae,61,732,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,GraphCast,0.635060,0.704082,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,HRES,0.364940,0.829949,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,GraphCast,0.635060,0.704082,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,HRES,0.364940,0.829949,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,GraphCast,0.635060,0.704082,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,HRES,0.364940,0.829949,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,GraphCast,0.635060,0.704082,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,HRES,0.364940,0.829949,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,GraphCast,0.635060,0.704082,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,HRES,0.364940,0.829949,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GraphCast,0.635060,0.704082,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,HRES,0.364940,0.829949,1 - CSI@64.5mm,183,25437,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,GraphCast,0.555156,0.910629,mae,51,1479,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,HRES,0.444844,1.161243,mae,51,1479,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,GraphCast,0.522510,0.928724,mae,51,1530,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,HRES,0.477490,1.025715,mae,51,1530,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,GraphCast,0.531433,1.300979,mae,51,1428,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,HRES,0.468567,1.488944,mae,51,1428,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,GraphCast,0.579257,2.294202,mae,51,969,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,HRES,0.420743,3.196214,mae,51,969,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,GraphCast,0.559862,2.346309,mae,51,1071,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,HRES,0.440138,3.011745,mae,51,1071,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,GraphCast,0.651099,4.405579,mae,51,612,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,HRES,0.348901,8.308044,mae,51,612,regime+lead+region,2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,GraphCast,0.569888,0.798969,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,HRES,0.430112,0.848276,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,GraphCast,0.569888,0.798969,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,HRES,0.430112,0.848276,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,GraphCast,0.569888,0.798969,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,HRES,0.430112,0.848276,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,GraphCast,0.569888,0.798969,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,HRES,0.430112,0.848276,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,GraphCast,0.569888,0.798969,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,HRES,0.430112,0.848276,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GraphCast,0.569888,0.798969,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,HRES,0.430112,0.848276,1 - CSI@64.5mm,193,26827,regime+lead CSI@64.5 (all India),2018-06-01T00:00:00,2020-10-01T00:00:00

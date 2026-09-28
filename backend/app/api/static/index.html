@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monsoon Blend Desk</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#16202a; --ink-2:#4b5866; --muted:#7a8794; --ground:#f3f5f4; --panel:#ffffff; --rule:#dde3e1;
+  --accent:#0f766e; --accent-soft:#e3f1ef; --heavy:#c2410c; --heavy-soft:#fdebe1; --ok:#15803d; --warn:#b45309; --bad:#b91c1c;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --ink:#e6ecef; --ink-2:#b3bfc8; --muted:#8593a0; --ground:#11171c; --panel:#182028; --rule:#2a3540;
+  --accent:#2dd4bf; --accent-soft:#12332f; --heavy:#fb923c; --heavy-soft:#3a2215; --ok:#4ade80; --warn:#fbbf24; --bad:#f87171;}}
+:root[data-theme="dark"]{
+  color-scheme:dark; --ink:#e6ecef; --ink-2:#b3bfc8; --muted:#8593a0; --ground:#11171c; --panel:#182028; --rule:#2a3540;
+  --accent:#2dd4bf; --accent-soft:#12332f; --heavy:#fb923c; --heavy-soft:#3a2215; --ok:#4ade80; --warn:#fbbf24; --bad:#f87171;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font:14px/1.5 var(--sans);padding-inline:16px;padding-block:16px 32px}
+.wrap{max-width:1280px;margin:0 auto;display:grid;gap:16px}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px}
+h1{margin:0;font-size:22px;letter-spacing:-.01em;text-wrap:balance}
+h2{margin:0 0 10px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2)}
+.sub{color:var(--ink-2);font-size:13px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:16px}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+.wrap>*,.grid>*,.stack>*{min-width:0}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:16px}
+.stack{display:grid;gap:16px;align-content:start}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--ink-2);padding:6px 12px;font:600 13px var(--sans);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.seg button:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{border:1px solid var(--accent);background:var(--accent-soft);color:var(--ink);border-radius:6px;padding:7px 14px;font:600 13px var(--sans);cursor:pointer}
+.btn[disabled]{opacity:.6;cursor:wait}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:2px 10px;font:600 12px var(--sans);border:1px solid currentColor}
+.pill.ok{color:var(--ok)}.pill.bad{color:var(--bad)}.pill.warn{color:var(--warn)}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+#map{height:620px;max-width:100%;border-radius:6px;background:var(--ground);z-index:0}
+@media (max-width:600px){#map{height:440px}}
+#map .leaflet-overlay-pane{transition:opacity .15s}
+#map.loading .leaflet-overlay-pane{opacity:.4}
+#map .leaflet-tooltip.rain,#map .leaflet-popup-content{font:12px/1.4 var(--sans);color:#16202a}
+#map .leaflet-tooltip.rain b,#map .leaflet-popup-content b{font-family:var(--mono)}
+.opacity{display:inline-flex;align-items:center;gap:6px;margin-left:auto}
+.opacity input{width:110px;accent-color:var(--accent)}
+.swatch{display:inline-block;width:14px;height:10px;border-radius:2px;vertical-align:middle;margin-right:4px}
+.legend{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:12px;color:var(--ink-2);flex-wrap:wrap}
+.ramp{height:10px;flex:1;min-width:120px;border-radius:3px}
+.meta{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12px;color:var(--ink-2);margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule)}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.bar{display:inline-block;height:6px;border-radius:3px;background:var(--accent);vertical-align:middle;margin-left:6px}
+.alert{border-left:4px solid var(--heavy);background:var(--heavy-soft);padding:8px 10px;border-radius:4px;display:grid;gap:2px}
+.alert.none{border-left-color:var(--rule);background:transparent}
+.alerts{display:grid;gap:8px}
+.note{font-size:12px;color:var(--ink-2)}
+.benchmark{border-style:dashed}
+.warnbox{background:var(--heavy-soft);border-radius:6px;padding:8px 10px;font-size:12px;margin-bottom:10px}
+.tablewrap{overflow-x:auto}
+.empty{color:var(--ink-2)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Monsoon Blend Desk</h1>
+      <div class="sub" id="cycle">GFS + ECMWF 24 h rainfall blend · IMD day ends 08:30 IST</div>
+    </div>
+    <div class="pills" id="status"></div>
+    <button class="btn" id="run" type="button">Run latest 00 UTC cycle</button>
+  </header>
+
+  <div class="grid">
+    <section class="panel" aria-label="Forecast map">
+      <div class="controls">
+        <div class="seg" id="product" role="group" aria-label="Product"></div>
+        <div class="seg" id="lead" role="group" aria-label="Lead day"></div>
+      </div>
+      <div id="map" role="region" aria-label="Interactive India rainfall map. Hover or click for the grid-cell value."></div>
+      <div class="legend"><span id="legend" class="legend" style="margin:0"></span>
+        <label class="opacity" for="opacity">Overlay opacity <input type="range" id="opacity" min="0.2" max="1" step="0.05" value="0.8"></label></div>
+      <div class="meta" id="mapmeta"></div>
+    </section>
+
+    <div class="stack">
+      <section class="panel"><h2>Heavy rain ≥ 64.5 mm / 24 h</h2><div class="alerts" id="alerts"></div>
+        <p class="note" id="caveat"></p></section>
+      <section class="panel"><h2>Regional model weights</h2><div class="tablewrap" id="weights"></div>
+        <p class="note" id="wmeta"></p></section>
+      <section class="panel"><h2>Validated skill vs IMD (Jun–Sep 2025)</h2><div class="tablewrap" id="validation"></div></section>
+    </div>
+  </div>
+
+  <section class="panel benchmark" aria-label="AI benchmark">
+    <h2>AI benchmark: GraphCast vs IFS HRES, verified against ERA5</h2>
+    <div class="warnbox" id="bwarn"></div>
+    <div class="tablewrap" id="benchmark"></div>
+  </section>
+</div>
+
+<script>
+const state = {summary:null, product:"blend", lead:1};
+const $ = id => document.getElementById(id);
+// IMD 24 h rainfall categories (mm); heavy starts at 64.5 mm, the validated alert threshold.
+const BINS = [[0, "#e4ecf3", "< 2.5 very light"], [2.5, "#b7d3f6", "2.5 light"], [15.6, "#5598e7", "15.6 moderate"],
+              [64.5, "#1c5cab", "64.5 heavy"], [115.6, "#0d366b", "115.6 very heavy"], [204.5, "#7a1f5c", "204.5 extremely heavy"]];
+let drawSeq = 0;
+const fmt = (v, d=2) => v == null || Number.isNaN(v) ? "–" : Number(v).toFixed(d);
+
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.statusText);
+  return r.json();
+}
+
+function colorFor(v) { let c = BINS[0][1]; for (const [t, col] of BINS) if (v >= t) c = col; return c; }
+function classOf(v) { let k = 0; BINS.forEach(([t], i) => { if (v >= t) k = i; }); return k; }
+const HEAVY_CLASS = 3;  // index of 64.5 mm in BINS
+const hexRgb = h => [1, 3, 5].map(k => parseInt(h.trim().slice(k, k + 2), 16));
+
+// ---- interactive map (Leaflet). The forecast grid is unchanged; only its rendering differs. ----
+let lmap = null, rainLayer = null, grid = null, tip = null, baseTiles = null, labelTiles = null;
+const mercY = lat => Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
+const invMercY = y => (2 * Math.atan(Math.exp(y)) - Math.PI / 2) * 180 / Math.PI;
+const isDark = () => document.documentElement.dataset.theme === "dark" ||
+  (document.documentElement.dataset.theme !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+function storedOpacity() { try { return parseFloat(localStorage.getItem("blenddesk.opacity")) || 0.8; } catch { return 0.8; } }
+
+// Esri World Gray Canvas: keyless basemap (light/dark) with a separate label layer drawn above the rain.
+function setTiles() {
+  const v = isDark() ? "Dark" : "Light", root = "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas";
+  const attr = 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors';
+  [baseTiles, labelTiles].forEach(t => t && lmap.removeLayer(t));
+  baseTiles = L.tileLayer(`${root}/World_${v}_Gray_Base/MapServer/tile/{z}/{y}/{x}`, {maxZoom: 16, attribution: attr}).addTo(lmap);
+  labelTiles = L.tileLayer(`${root}/World_${v}_Gray_Reference/MapServer/tile/{z}/{y}/{x}`, {maxZoom: 16, pane: "labels"}).addTo(lmap);
+}
+
+function initMap() {
+  if (!window.L) { $("mapmeta").textContent = "Map library failed to load (no internet?). Forecast tables below still work."; return; }
+  lmap = L.map("map", {zoomSnap: 0.25, minZoom: 3.5, maxZoom: 10, maxBounds: [[-2, 55], [45, 112]]});
+  lmap.fitBounds([[6.5, 68], [37.5, 97.5]]);
+  lmap.createPane("boundaries").style.zIndex = 640;
+  lmap.createPane("labels").style.zIndex = 650;
+  lmap.getPane("boundaries").style.pointerEvents = lmap.getPane("labels").style.pointerEvents = "none";
+  setTiles();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", setTiles);
+  fetch("/static/india_states.geojson").then(r => r.ok ? r.json() : Promise.reject(r.statusText)).then(g => {
+    L.geoJSON(g, {pane: "boundaries", interactive: false,
+      style: {color: isDark() ? "#b3bfc8" : "#4b5866", weight: 0.8, opacity: 0.8, fill: false}}).addTo(lmap);
+    lmap.attributionControl.addAttribution("Boundaries: geoBoundaries / DataMeet (CC BY 2.5 IN), not an official Survey of India depiction");
+  }).catch(() => lmap.attributionControl.addAttribution("State boundaries unavailable"));
+  tip = L.tooltip({className: "rain", direction: "top", offset: [0, -8]});
+  lmap.on("mousemove", e => { const h = cellHtml(e.latlng); if (h) tip.setLatLng(e.latlng).setContent(h).addTo(lmap); else tip.remove(); });
+  lmap.on("mouseout", () => tip.remove());
+  lmap.on("click", e => { const h = cellHtml(e.latlng); if (h) L.popup().setLatLng(e.latlng).setContent(h).openOn(lmap); });
+  const op = $("opacity"); op.value = storedOpacity();
+  op.oninput = () => { rainLayer && rainLayer.setOpacity(+op.value); try { localStorage.setItem("blenddesk.opacity", op.value); } catch {} };
+}
+
+// Exact value of the 0.25 deg grid cell under the pointer (not the smoothed display value).
+function cellHtml(ll) {
+  if (!grid) return null;
+  const f = grid, dlat = f.lat[1] - f.lat[0], dlon = f.lon[1] - f.lon[0];
+  const j = Math.round((ll.lat - f.lat[0]) / dlat), i = Math.round((ll.lng - f.lon[0]) / dlon);
+  if (j < 0 || i < 0 || j >= f.lat.length || i >= f.lon.length) return null;
+  const v = f.values[j][i]; if (v == null) return null;
+  const label = BINS[classOf(v)][2].replace(/^[<\d.\s]+/, "");
+  return `<b>${v.toFixed(1)} mm</b> / 24 h · ${label}${v >= 64.5 ? " · <b>heavy-rain alert</b>" : ""}<br>` +
+    `${state.product === "blend" ? "Blend" : state.product}, day ${state.lead} · cell ${f.lat[j].toFixed(2)}°N ${f.lon[i].toFixed(2)}°E (0.25°)`;
+}
+
+// Smooth overlay: bilinear interpolation of the grid (never across the land-mask edge), sampled
+// on rows evenly spaced in Web Mercator so it registers exactly on the basemap, then classified
+// into the IMD categories. Heavy (>= 64.5 mm) areas get a 2 px outline.
+function buildOverlay(f) {
+  const ny = f.lat.length, nx = f.lon.length, dlat = f.lat[1] - f.lat[0], dlon = f.lon[1] - f.lon[0];
+  const S = 6, W = nx * S, H = ny * S;
+  const south = f.lat[0] - dlat / 2, north = f.lat[ny - 1] + dlat / 2, west = f.lon[0] - dlon / 2, east = f.lon[nx - 1] + dlon / 2;
+  const y0 = mercY(north), y1 = mercY(south);
+  const val = (j, i) => (j < 0 || i < 0 || j >= ny || i >= nx) ? null : f.values[j][i];
+  const cls = new Int8Array(W * H).fill(-1);
+  for (let py = 0; py < H; py++) {
+    const lat = invMercY(y0 + (py + 0.5) / H * (y1 - y0)), fj = (lat - f.lat[0]) / dlat, j0 = Math.floor(fj), tj = fj - j0;
+    for (let px = 0; px < W; px++) {
+      const fi = (west + (px + 0.5) / W * (east - west) - f.lon[0]) / dlon, i0 = Math.floor(fi), ti = fi - i0;
+      if (val(Math.round(fj), Math.round(fi)) == null) continue;  // outside the IMD land mask
+      let sw = 0, sv = 0;
+      [[j0, i0, (1 - tj) * (1 - ti)], [j0, i0 + 1, (1 - tj) * ti], [j0 + 1, i0, tj * (1 - ti)], [j0 + 1, i0 + 1, tj * ti]]
+        .forEach(([j, i, w]) => { const v = val(j, i); if (v != null && w > 0) { sw += w; sv += w * v; } });
+      if (sw > 0) cls[py * W + px] = classOf(sv / sw);
+    }
+  }
+  const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const ctx = cv.getContext("2d"), img = ctx.createImageData(W, H), px = img.data;
+  const rgb = BINS.map(([, c]) => hexRgb(c)), heavy = hexRgb(getComputedStyle(document.documentElement).getPropertyValue("--heavy"));
+  for (let k = 0; k < W * H; k++) {
+    const c = cls[k]; if (c < 0) continue;
+    let r = rgb[c], a = c === 0 ? 40 : 235;  // < 2.5 mm barely tints the basemap
+    if (c >= HEAVY_CLASS) {
+      const y = Math.floor(k / W), x = k - y * W;
+      for (let d = 1; d <= 2 && r !== heavy; d++)
+        for (const [dy, dx] of [[d, 0], [-d, 0], [0, d], [0, -d]]) {
+          const yy = y + dy, xx = x + dx;
+          if (yy < 0 || xx < 0 || yy >= H || xx >= W || cls[yy * W + xx] < HEAVY_CLASS) { r = heavy; a = 255; break; }
+        }
+    }
+    px.set([r[0], r[1], r[2], a], k * 4);
+  }
+  ctx.putImageData(img, 0, 0);
+  return {url: cv.toDataURL(), bounds: [[south, west], [north, east]]};
+}
+
+function showGrid(f) {
+  grid = f;
+  if (!lmap) return;
+  const o = buildOverlay(f);
+  if (rainLayer) lmap.removeLayer(rainLayer);
+  rainLayer = L.imageOverlay(o.url, o.bounds, {opacity: +$("opacity").value, interactive: false, className: "rain-overlay"}).addTo(lmap);
+}
+
+function clearGrid() { grid = null; if (rainLayer) { lmap.removeLayer(rainLayer); rainLayer = null; } tip && tip.remove(); }
+const regimeLabel = n => (n || "").replace(/^REGIME_\d+:\s*/, "");
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+
+function segment(el, items, current, onPick) {
+  el.innerHTML = "";
+  items.forEach(([value, label, enabled = true]) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = label; b.disabled = !enabled;
+    b.setAttribute("aria-pressed", String(value === current));
+    b.onclick = () => onPick(value);
+    el.appendChild(b);
+  });
+}
+
+function day() { return state.summary.lead_days.find(d => d.lead_day === state.lead); }
+
+async function drawMap() {
+  const box = $("map"), seq = ++drawSeq;
+  box.classList.add("loading");
+  $("mapmeta").textContent = `Loading ${state.product === "blend" ? "blend" : state.product} map for day ${state.lead}…`;
+  try {
+    const f = await api(`/api/forecast/field?product=${state.product}&lead_day=${state.lead}&stride=1`);
+    if (seq !== drawSeq) return;  // a newer selection was made while this one loaded
+    showGrid(f);
+    const d = day();
+    $("mapmeta").innerHTML = `<span>Window <b class="mono">${d.window_start_utc.slice(0,16)}Z → ${d.window_end_utc.slice(0,16)}Z</b></span>
+      <span>IMD date <b class="mono">${d.imd_valid_date}</b></span><span>India mean <b class="mono">${fmt(d.india_mean_mm[state.product])} mm</b></span>
+      <span>Regime <b>${regimeLabel(d.regime_name)}</b></span>`;
+  } catch (e) {
+    if (seq !== drawSeq) return;
+    clearGrid();
+    $("mapmeta").textContent = "Map unavailable: " + e.message;
+  } finally {
+    if (seq === drawSeq) box.classList.remove("loading");
+  }
+}
+
+function renderSide() {
+  const s = state.summary, d = day();
+  $("cycle").innerHTML = `Cycle <b class="mono">${s.init_time.replace("T", " ").slice(0,16)} UTC</b> · 24 h windows end 03 UTC (08:30 IST, IMD day)`;
+  $("status").innerHTML = Object.entries(s.model_status).map(([m, st]) =>
+    `<span class="pill ${st.status === "AVAILABLE" ? "ok" : "bad"}" title="${st.message}">${m} · ${st.status.toLowerCase()}</span>`).join("")
+    + (d && d.fallback_used ? `<span class="pill warn" title="${d.fallback_reason}">fallback: ${d.available_models.join(" + ")}</span>` : "");
+  $("alerts").innerHTML = s.lead_days.map(x => {
+    const rows = Object.entries(x.alerts || {}).map(([k, a]) => `<span><b>${k === "blend" ? "Blend" : k}</b>: <span class="mono">${plural(a.cells, "cell")}</span>, max <span class="mono">${fmt(a.max_mm, 0)} mm</span>${a.cells ? " · " + Object.entries(a.regions).map(([r, n]) => `${r} ${n}`).join(", ") : ""}</span>`).join("");
+    const any = Object.values(x.alerts || {}).some(a => a.cells > 0);
+    return `<div class="alert ${any ? "" : "none"}"><b>Day ${x.lead_day} · IMD date <span class="mono">${x.imd_valid_date || "–"}</span></b>${rows || "no forecast"}</div>`;
+  }).join("");
+  $("caveat").textContent = s.caveat;
+  if (!d || !d.regional_weights) { $("weights").innerHTML = '<p class="empty">No weights for this day.</p>'; return; }
+  const models = Object.keys(Object.values(d.regional_weights)[0]);
+  $("weights").innerHTML = `<table><thead><tr><th>Region</th>${models.map(m => `<th class="num">${m}</th>`).join("")}</tr></thead><tbody>` +
+    Object.entries(d.regional_weights).map(([r, w]) => `<tr><td>${r}</td>${models.map(m =>
+      `<td class="num">${fmt(w[m], 2)}<span class="bar" style="width:${Math.round(w[m] * 40)}px"></span></td>`).join("")}</tr>`).join("") + "</tbody></table>";
+  $("wmeta").innerHTML = `Day ${d.lead_day}, ${d.regime_name}. Learned from ${d.sample_count} forecast cases (2023–24).
+    Training MAE: ${Object.entries(d.training_error_mae_mm).map(([m, e]) => `${m} <span class="mono">${fmt(e)}</span> mm`).join(", ")}.
+    Weights applied now: ${Object.entries(d.weights).map(([m, w]) => `${m} <span class="mono">${fmt(w)}</span>`).join(", ")}.` +
+    (d.fallback_used ? ` <b>Fallback:</b> ${d.missing_models.join(", ")} unavailable, so the table shows learned weights that are not applied for this run.` : "");
+}
+
+function scoreTable(scores, rows) {
+  return `<table><thead><tr><th>Method</th><th class="num">MAE</th><th class="num">RMSE</th><th class="num">Bias</th><th class="num">CSI ≥64.5</th><th class="num">POD</th><th class="num">FAR</th></tr></thead><tbody>` +
+    rows.filter(([k]) => scores[k]).map(([k, label]) => { const v = scores[k];
+      return `<tr><td>${label}</td><td class="num">${fmt(v.mae, 3)}</td><td class="num">${fmt(v.rmse)}</td><td class="num">${fmt(v.bias)}</td><td class="num">${fmt(v["csi@64.5mm"], 3)}</td><td class="num">${fmt(v["pod@64.5mm"], 3)}</td><td class="num">${fmt(v["far@64.5mm"], 3)}</td></tr>`; }).join("") + "</tbody></table>";
+}
+
+async function loadStatic() {
+  try {
+    const v = await api("/api/validation");
+    $("validation").innerHTML = scoreTable(v.scores, [["GFS", "GFS"], ["ECMWF", "ECMWF"], ["equal", "Equal blend"], ["regime", "Regime blend (in use)"]]) +
+      '<p class="note">mm / 24 h, all lead days, 122 test days. The blend has the lowest MAE; ECMWF alone detects heavy rain best.</p>';
+  } catch (e) { $("validation").textContent = e.message; }
+  try {
+    const b = await api("/api/benchmark/ai");
+    $("bwarn").textContent = b.warning;
+    $("benchmark").innerHTML = scoreTable(b.scores, [["GraphCast", "GraphCast (AI)"], ["HRES", "IFS HRES"], ["equal", "Equal blend"], ["regime", "Regime blend"]]) +
+      `<p class="note">Reference ${b.reference}; test season ${b.test_season}. Separate experiment from the IMD numbers above.</p>`;
+  } catch (e) { $("benchmark").textContent = e.message; }
+}
+
+function renderControls() {
+  const d = day(), avail = d && d.available_models ? d.available_models : [];
+  if (state.product !== "blend" && !avail.includes(state.product)) state.product = "blend";
+  segment($("product"), [["blend", "Blend"], ...["GFS", "ECMWF"].map(m => [m, m, avail.includes(m)])], state.product, p => { state.product = p; refresh(); });
+  segment($("lead"), state.summary.lead_days.map(x => [x.lead_day, `Day ${x.lead_day}`, !x.error]), state.lead, l => { state.lead = l; refresh(); });
+}
+
+function refresh() { renderControls(); renderSide(); drawMap(); }
+
+function showEmpty(msg) {
+  $("cycle").textContent = msg;
+  $("mapmeta").textContent = "No forecast map yet. Run the latest cycle to produce one.";
+  $("alerts").innerHTML = '<p class="empty">No operational run yet. Use “Run latest 00 UTC cycle”.</p>';
+  $("weights").innerHTML = '<p class="empty">Weights appear after the first run.</p>';
+}
+
+async function loadForecast() {
+  $("mapmeta").textContent = "Loading latest forecast…";
+  try {
+    const runs = await api("/api/forecast/runs");
+    if (!runs.length) return showEmpty("No operational run yet");
+    state.summary = await api("/api/forecast"); refresh();
+  } catch (e) { showEmpty("Could not load the forecast: " + e.message); }
+}
+
+$("run").onclick = async () => {
+  const b = $("run"); b.disabled = true; b.textContent = "Running… (downloads + blend)";
+  try { state.summary = await api("/api/forecast/run", {method: "POST"}); refresh(); b.textContent = "Run latest 00 UTC cycle"; }
+  catch (e) { b.textContent = "Run failed: " + e.message; }
+  finally { b.disabled = false; }
+};
+
+$("legend").innerHTML = BINS.map(([, c, l]) => `<span><span class="swatch" style="background:${c}"></span>${l}</span>`).join("") +
+  '<span>mm / 24 h · orange outline: ≥ 64.5 mm (IMD heavy) · hover/click for the grid-cell value</span>';
+initMap();
+loadForecast(); loadStatic();
+</script>
+</body>
+</html>

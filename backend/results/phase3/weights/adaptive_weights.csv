@@ -1,0 +1,289 @@
+method,regime,regime_name,lead_day,region,model,weight,training_error,error_metric,sample_count,n_points,level,training_start,training_end
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,North,GFS,0.434890,7.378219,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,North,ECMWF,0.565110,5.654982,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,West,GFS,0.479769,5.384566,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,West,ECMWF,0.520231,4.957988,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Central,GFS,0.485555,12.403506,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Central,ECMWF,0.514445,11.701348,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,East,GFS,0.529805,6.617535,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,East,ECMWF,0.470195,7.469158,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,South,GFS,0.544210,3.436173,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,South,ECMWF,0.455790,4.122161,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Northeast,GFS,0.543248,5.407898,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Northeast,ECMWF,0.456752,6.450943,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,North,GFS,0.485846,5.119095,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,North,ECMWF,0.514154,4.831747,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,West,GFS,0.477943,11.083205,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,West,ECMWF,0.522057,10.138221,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Central,GFS,0.479389,5.998479,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Central,ECMWF,0.520611,5.515601,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,East,GFS,0.497598,11.799000,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,East,ECMWF,0.502402,11.685209,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,South,GFS,0.466963,9.721902,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,South,ECMWF,0.533037,8.504408,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Northeast,GFS,0.526505,11.689579,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Northeast,ECMWF,0.473495,13.009483,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,North,GFS,0.458492,7.190597,mae,9,8586,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,North,ECMWF,0.541508,6.072914,mae,9,8586,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,West,GFS,0.506845,8.538725,mae,9,9387,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,West,ECMWF,0.493155,8.778520,mae,9,9387,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Central,GFS,0.490261,14.333492,mae,9,8640,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Central,ECMWF,0.509739,13.781991,mae,9,8640,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,East,GFS,0.515655,9.198898,mae,9,6228,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,East,ECMWF,0.484345,9.800033,mae,9,6228,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,South,GFS,0.502413,4.524636,mae,9,7758,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,South,ECMWF,0.497587,4.569499,mae,9,7758,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Northeast,GFS,0.470867,14.590859,mae,9,4077,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Northeast,ECMWF,0.529133,12.973165,mae,9,4077,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,North,GFS,0.498784,6.975644,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,North,ECMWF,0.501216,6.941299,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,West,GFS,0.484409,5.155992,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,West,ECMWF,0.515591,4.838111,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Central,GFS,0.497830,9.339290,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Central,ECMWF,0.502170,9.257722,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,East,GFS,0.530240,8.012631,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,East,ECMWF,0.469760,9.057097,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,South,GFS,0.482810,10.256134,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,South,ECMWF,0.517190,9.567711,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Northeast,GFS,0.520924,7.449463,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Northeast,ECMWF,0.479076,8.108918,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,North,GFS,0.454232,7.949107,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,North,ECMWF,0.545768,6.599120,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,West,GFS,0.522036,4.640725,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,West,ECMWF,0.477964,5.077861,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Central,GFS,0.517926,15.088919,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Central,ECMWF,0.482074,16.218496,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,East,GFS,0.488698,8.913687,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,East,ECMWF,0.511302,8.515195,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,South,GFS,0.537636,3.142371,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,South,ECMWF,0.462364,3.670228,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Northeast,GFS,0.513338,8.537836,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Northeast,ECMWF,0.486662,9.011308,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,North,GFS,0.505366,4.846651,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,North,ECMWF,0.494634,4.953976,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,West,GFS,0.443776,12.671274,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,West,ECMWF,0.556224,10.089403,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Central,GFS,0.503067,6.286014,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Central,ECMWF,0.496933,6.364828,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,East,GFS,0.497984,12.962888,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,East,ECMWF,0.502016,12.857972,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,South,GFS,0.561599,6.916904,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,South,ECMWF,0.438401,8.888759,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Northeast,GFS,0.518550,13.817169,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Northeast,ECMWF,0.481450,14.889631,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,North,GFS,0.472139,6.786546,mae,8,7632,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,North,ECMWF,0.527861,6.059588,mae,8,7632,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,West,GFS,0.502993,10.176340,mae,8,8344,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,West,ECMWF,0.497007,10.300090,mae,8,8344,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Central,GFS,0.517110,14.630027,mae,8,7680,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Central,ECMWF,0.482890,15.673887,mae,8,7680,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,East,GFS,0.505428,10.212506,mae,8,5536,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,East,ECMWF,0.494572,10.438859,mae,8,5536,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,South,GFS,0.491529,5.169742,mae,8,6896,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,South,ECMWF,0.508471,4.994159,mae,8,6896,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Northeast,GFS,0.501196,12.757978,mae,8,3624,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Northeast,ECMWF,0.498804,12.819661,mae,8,3624,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,North,GFS,0.462990,8.444333,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,North,ECMWF,0.537010,7.266606,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,West,GFS,0.495891,5.221432,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,West,ECMWF,0.504109,5.134676,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Central,GFS,0.496230,10.872276,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Central,ECMWF,0.503770,10.708056,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,East,GFS,0.513683,8.835781,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,East,ECMWF,0.486317,9.338626,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,South,GFS,0.529245,8.513679,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,South,ECMWF,0.470755,9.583916,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Northeast,GFS,0.528068,8.090531,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Northeast,ECMWF,0.471932,9.064805,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,North,GFS,0.483377,6.570628,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,North,ECMWF,0.516623,6.141345,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,West,GFS,0.491475,5.855310,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,West,ECMWF,0.508525,5.655634,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Central,GFS,0.509057,16.750511,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Central,ECMWF,0.490943,17.372268,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,East,GFS,0.494003,8.237072,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,East,ECMWF,0.505997,8.039446,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,South,GFS,0.540246,3.182839,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,South,ECMWF,0.459754,3.757589,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Northeast,GFS,0.505960,7.544445,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Northeast,ECMWF,0.494040,7.728892,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,North,GFS,0.520779,5.399742,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,North,ECMWF,0.479221,5.876686,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,West,GFS,0.492760,11.874749,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,West,ECMWF,0.507240,11.532889,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Central,GFS,0.500849,6.254411,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Central,ECMWF,0.499151,6.276016,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,East,GFS,0.491107,14.266307,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,East,ECMWF,0.508893,13.764194,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,South,GFS,0.557589,6.248823,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,South,ECMWF,0.442411,7.901680,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Northeast,GFS,0.517757,12.506737,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Northeast,ECMWF,0.482243,13.435135,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,North,GFS,0.464476,7.649486,mae,10,9540,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,North,ECMWF,0.535524,6.621362,mae,10,9540,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,West,GFS,0.514122,9.747294,mae,10,10430,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,West,ECMWF,0.485878,10.319718,mae,10,10430,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Central,GFS,0.515431,16.911549,mae,10,9600,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Central,ECMWF,0.484569,17.994993,mae,10,9600,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,East,GFS,0.465709,13.076788,mae,10,6920,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,East,ECMWF,0.534291,11.385420,mae,10,6920,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,South,GFS,0.514582,4.845779,mae,10,8620,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,South,ECMWF,0.485418,5.142930,mae,10,8620,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Northeast,GFS,0.480090,14.653370,mae,10,4530,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Northeast,ECMWF,0.519910,13.523400,mae,10,4530,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,North,GFS,0.540197,7.952743,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,North,ECMWF,0.459803,9.360710,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,West,GFS,0.522018,4.458991,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,West,ECMWF,0.477982,4.879006,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Central,GFS,0.506942,10.767933,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Central,ECMWF,0.493058,11.073958,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,East,GFS,0.480206,8.863851,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,East,ECMWF,0.519794,8.181161,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,South,GFS,0.521880,10.064036,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,South,ECMWF,0.478120,10.994281,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Northeast,GFS,0.541864,8.332676,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+regime,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Northeast,ECMWF,0.458136,9.873806,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,North,GFS,0.434890,7.378219,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,North,ECMWF,0.565110,5.654982,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,West,GFS,0.479769,5.384566,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,West,ECMWF,0.520231,4.957988,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Central,GFS,0.485555,12.403506,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Central,ECMWF,0.514445,11.701348,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,East,GFS,0.529805,6.617535,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,East,ECMWF,0.470195,7.469158,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,South,GFS,0.544210,3.436173,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,South,ECMWF,0.455790,4.122161,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Northeast,GFS,0.543248,5.407898,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),1,Northeast,ECMWF,0.456752,6.450943,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,North,GFS,0.451121,0.912387,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,North,ECMWF,0.548879,0.893401,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,West,GFS,0.451121,0.912387,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,West,ECMWF,0.548879,0.893401,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Central,GFS,0.451121,0.912387,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Central,ECMWF,0.548879,0.893401,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,East,GFS,0.451121,0.912387,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,East,ECMWF,0.548879,0.893401,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,South,GFS,0.451121,0.912387,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,South,ECMWF,0.548879,0.893401,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Northeast,GFS,0.451121,0.912387,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),1,Northeast,ECMWF,0.548879,0.893401,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,North,GFS,0.541646,0.908803,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,North,ECMWF,0.458354,0.922827,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,West,GFS,0.541646,0.908803,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,West,ECMWF,0.458354,0.922827,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Central,GFS,0.541646,0.908803,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Central,ECMWF,0.458354,0.922827,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,East,GFS,0.541646,0.908803,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,East,ECMWF,0.458354,0.922827,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,South,GFS,0.541646,0.908803,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,South,ECMWF,0.458354,0.922827,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Northeast,GFS,0.541646,0.908803,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),1,Northeast,ECMWF,0.458354,0.922827,1 - CSI@64.5mm,9,44676,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,North,GFS,0.498784,6.975644,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,North,ECMWF,0.501216,6.941299,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,West,GFS,0.484409,5.155992,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,West,ECMWF,0.515591,4.838111,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Central,GFS,0.497830,9.339290,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Central,ECMWF,0.502170,9.257722,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,East,GFS,0.530240,8.012631,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,East,ECMWF,0.469760,9.057097,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,South,GFS,0.482810,10.256134,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,South,ECMWF,0.517190,9.567711,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Northeast,GFS,0.520924,7.449463,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),1,Northeast,ECMWF,0.479076,8.108918,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,North,GFS,0.454232,7.949107,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,North,ECMWF,0.545768,6.599120,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,West,GFS,0.522036,4.640725,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,West,ECMWF,0.477964,5.077861,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Central,GFS,0.517926,15.088919,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Central,ECMWF,0.482074,16.218496,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,East,GFS,0.488698,8.913687,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,East,ECMWF,0.511302,8.515195,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,South,GFS,0.537636,3.142371,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,South,ECMWF,0.462364,3.670228,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Northeast,GFS,0.513338,8.537836,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),2,Northeast,ECMWF,0.486662,9.011308,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,North,GFS,0.554872,0.930876,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,North,ECMWF,0.445128,0.944547,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,West,GFS,0.554872,0.930876,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,West,ECMWF,0.445128,0.944547,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Central,GFS,0.554872,0.930876,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Central,ECMWF,0.445128,0.944547,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,East,GFS,0.554872,0.930876,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,East,ECMWF,0.445128,0.944547,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,South,GFS,0.554872,0.930876,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,South,ECMWF,0.445128,0.944547,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Northeast,GFS,0.554872,0.930876,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),2,Northeast,ECMWF,0.445128,0.944547,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,North,GFS,0.623410,0.925956,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,North,ECMWF,0.376590,0.955272,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,West,GFS,0.623410,0.925956,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,West,ECMWF,0.376590,0.955272,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Central,GFS,0.623410,0.925956,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Central,ECMWF,0.376590,0.955272,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,East,GFS,0.623410,0.925956,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,East,ECMWF,0.376590,0.955272,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,South,GFS,0.623410,0.925956,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,South,ECMWF,0.376590,0.955272,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Northeast,GFS,0.623410,0.925956,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),2,Northeast,ECMWF,0.376590,0.955272,1 - CSI@64.5mm,8,39712,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,North,GFS,0.462990,8.444333,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,North,ECMWF,0.537010,7.266606,mae,6,5724,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,West,GFS,0.495891,5.221432,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,West,ECMWF,0.504109,5.134676,mae,6,6258,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Central,GFS,0.496230,10.872276,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Central,ECMWF,0.503770,10.708056,mae,6,5760,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,East,GFS,0.513683,8.835781,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,East,ECMWF,0.486317,9.338626,mae,6,4152,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,South,GFS,0.529245,8.513679,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,South,ECMWF,0.470755,9.583916,mae,6,5172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Northeast,GFS,0.528068,8.090531,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),2,Northeast,ECMWF,0.471932,9.064805,mae,6,2718,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,North,GFS,0.483377,6.570628,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,North,ECMWF,0.516623,6.141345,mae,4,3816,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,West,GFS,0.491475,5.855310,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,West,ECMWF,0.508525,5.655634,mae,4,4172,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Central,GFS,0.509057,16.750511,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Central,ECMWF,0.490943,17.372268,mae,4,3840,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,East,GFS,0.494003,8.237072,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,East,ECMWF,0.505997,8.039446,mae,4,2768,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,South,GFS,0.540246,3.182839,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,South,ECMWF,0.459754,3.757589,mae,4,3448,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Northeast,GFS,0.505960,7.544445,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Central),3,Northeast,ECMWF,0.494040,7.728892,mae,4,1812,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,North,GFS,0.710676,0.953654,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,North,ECMWF,0.289324,0.981132,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,West,GFS,0.710676,0.953654,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,West,ECMWF,0.289324,0.981132,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Central,GFS,0.710676,0.953654,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Central,ECMWF,0.289324,0.981132,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,East,GFS,0.710676,0.953654,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,East,ECMWF,0.289324,0.981132,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,South,GFS,0.710676,0.953654,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,South,ECMWF,0.289324,0.981132,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Northeast,GFS,0.710676,0.953654,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: East),3,Northeast,ECMWF,0.289324,0.981132,1 - CSI@64.5mm,4,19856,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,North,GFS,0.211420,0.980405,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,North,ECMWF,0.788580,0.926910,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,West,GFS,0.211420,0.980405,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,West,ECMWF,0.788580,0.926910,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Central,GFS,0.211420,0.980405,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Central,ECMWF,0.788580,0.926910,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,East,GFS,0.211420,0.980405,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,East,ECMWF,0.788580,0.926910,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,South,GFS,0.211420,0.980405,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,South,ECMWF,0.788580,0.926910,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Northeast,GFS,0.211420,0.980405,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Central),3,Northeast,ECMWF,0.788580,0.926910,1 - CSI@64.5mm,10,49640,regime+lead CSI@64.5 (all India),2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,North,GFS,0.540197,7.952743,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,North,ECMWF,0.459803,9.360710,mae,5,4770,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,West,GFS,0.522018,4.458991,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,West,ECMWF,0.477982,4.879006,mae,5,5215,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Central,GFS,0.506942,10.767933,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Central,ECMWF,0.493058,11.073958,mae,5,4800,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,East,GFS,0.480206,8.863851,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,East,ECMWF,0.519794,8.181161,mae,5,3460,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,South,GFS,0.521880,10.064036,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,South,ECMWF,0.478120,10.994281,mae,5,4310,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Northeast,GFS,0.541864,8.332676,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00
+extreme_aware,3,REGIME_3: MODERATE RAINFALL (wettest: South),3,Northeast,ECMWF,0.458136,9.873806,mae,5,2265,regime+lead+region,2025-06-30T03:00:00,2025-07-23T03:00:00

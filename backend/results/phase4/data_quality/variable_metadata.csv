@@ -1,0 +1,8 @@
+experiment,model,source_variable,source_units,meaning,conversion
+A,GFS,APCP:surface:0-N hour acc fcst,kg m-2,precipitation accumulated since initialisation,x1 -> mm; 24 h = acc(end) - acc(start)
+A,ECMWF,tp (sfc),m,precipitation accumulated since initialisation,x1000 -> mm; 24 h = acc(end) - acc(start)
+A,GFS_ATMOS_1P00,PRMSL / UGRD 850 mb / PWAT,Pa / m s-1 / kg m-2,instantaneous at step,Pa x0.01 -> hPa; m s-1; kg m-2 = mm; regime features only
+A,IMD,gridded rainfall (imdlib 'rain'),mm (imdlib label 'mm/day'),24 h total ending 08:30 IST (03 UTC) on label day D,x1; -999 -> NaN
+B,GraphCast,total_precipitation_6hr,m (verified vs ERA5),precipitation in the 6 h before each step,negative buckets clipped to 0 (counted); cumulative sum -> since init; x1000 -> mm; 24 h difference
+B,HRES,total_precipitation,m,accumulated since initialisation (0 at step 0),x1000 -> mm; 24 h difference
+B,ERA5,total_precipitation_24hr,m,24 h total ending at the time stamp (00 UTC),x1000 -> mm; masked to India land cells

@@ -1,0 +1,16 @@
+experiment,season,model,cycles_expected,cycles_available,coverage,samples_aligned
+A,2023,GFS,124,124,1.0,366.0
+A,2023,ECMWF,124,124,1.0,366.0
+A,2023,GFS 1.0 deg (regime features),124,124,1.0,
+A,2024,GFS,124,124,1.0,366.0
+A,2024,ECMWF,124,124,1.0,366.0
+A,2024,GFS 1.0 deg (regime features),124,124,1.0,
+A,2025,GFS,124,124,1.0,366.0
+A,2025,ECMWF,124,124,1.0,366.0
+A,2025,GFS 1.0 deg (regime features),124,124,1.0,
+B,2018,GraphCast,124,124,1.0,366.0
+B,2018,HRES,124,124,1.0,366.0
+B,2020,GraphCast,124,124,1.0,366.0
+B,2020,HRES,124,124,1.0,366.0
+B,2022,GraphCast,124,124,1.0,366.0
+B,2022,HRES,124,124,1.0,366.0

@@ -1,0 +1,283 @@
+{
+  "phase": 4,
+  "started_at": "2026-09-28T04:30:53+00:00",
+  "finished_at": "2026-09-28T05:09:31+00:00",
+  "blend_config": {
+    "epsilon_mm": 0.1,
+    "min_samples": 3,
+    "min_points": 500,
+    "seed": 20250701,
+    "ks": [
+      2,
+      3,
+      4
+    ],
+    "bootstrap_samples": 2000,
+    "thresholds_mm": [
+      2.5,
+      15.6,
+      64.5
+    ]
+  },
+  "experiment_a": {
+    "seasons": [
+      2023,
+      2024,
+      2025
+    ],
+    "season_months": [
+      6,
+      9
+    ],
+    "train_seasons": [
+      2023
+    ],
+    "validation_seasons": [
+      2024
+    ],
+    "test_seasons": [
+      2025
+    ],
+    "models": [
+      "GFS",
+      "ECMWF"
+    ],
+    "lead_days": [
+      1,
+      2,
+      3
+    ],
+    "ecmwf_base_url": "https://ecmwf-forecasts.s3.eu-central-1.amazonaws.com",
+    "http_retries": 8,
+    "http_min_interval": 0.25,
+    "reference": "IMD",
+    "window": "03 UTC -> 03 UTC"
+  },
+  "experiment_b": {
+    "seasons": [
+      2018,
+      2020,
+      2022
+    ],
+    "train": [
+      2018
+    ],
+    "validation": [
+      2020
+    ],
+    "test": [
+      2022
+    ],
+    "grid": {
+      "name": "India (WB2 1.5 deg)",
+      "lat_min": 6.0,
+      "lat_max": 37.5,
+      "lon_min": 67.5,
+      "lon_max": 97.5,
+      "resolution": 1.5,
+      "shape": [
+        22,
+        21
+      ]
+    },
+    "reference": "ERA5",
+    "window": "00 UTC -> 00 UTC"
+  },
+  "rule": "Experiment A and B scores are never combined; B does not measure skill against IMD.",
+  "python": "3.13.7",
+  "packages": {
+    "xarray": "2026.7.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "cfgrib": "0.9.15.1",
+    "eccodes": "2.48.0",
+    "zarr": "3.4.0",
+    "imdlib": "0.1.22"
+  },
+  "results": {
+    "A": {
+      "GFS": {
+        "mae": 7.65036520104999,
+        "rmse": 16.03849865130853,
+        "bias": -0.5202515158796579,
+        "corr": 0.3961502160128747,
+        "csi@64.5mm": 0.06624605678233439,
+        "pod@64.5mm": 0.09487151686002385,
+        "far@64.5mm": 0.8199711953912626
+      },
+      "ECMWF": {
+        "mae": 7.657842819919389,
+        "rmse": 15.152196345011928,
+        "bias": 0.8438204048468417,
+        "corr": 0.47007766024900266,
+        "csi@64.5mm": 0.08833605220228385,
+        "pod@64.5mm": 0.11742383172503523,
+        "far@64.5mm": 0.7371359223300971
+      },
+      "equal": {
+        "mae": 7.168161457045314,
+        "rmse": 14.186762026334236,
+        "bias": 0.16178444448359192,
+        "corr": 0.5012505314915131,
+        "csi@64.5mm": 0.07830197092660306,
+        "pod@64.5mm": 0.09519679063211536,
+        "far@64.5mm": 0.693863319386332
+      },
+      "phase2_inverse_error": {
+        "mae": 7.168354047320266,
+        "rmse": 14.184412220368674,
+        "bias": 0.16405597749964423,
+        "corr": 0.5014284795413962,
+        "csi@64.5mm": 0.07834389221022575,
+        "pod@64.5mm": 0.09519679063211536,
+        "far@64.5mm": 0.6932215234102026
+      },
+      "regime": {
+        "mae": 7.166506739046071,
+        "rmse": 14.182717227233361,
+        "bias": 0.1617886247494341,
+        "corr": 0.5015747771437066,
+        "csi@64.5mm": 0.07823291259823767,
+        "pod@64.5mm": 0.09497994145072103,
+        "far@64.5mm": 0.6926675242661677
+      },
+      "extreme_aware": {
+        "mae": 7.178135507828176,
+        "rmse": 14.160572246830553,
+        "bias": 0.23554099850219962,
+        "corr": 0.5042736219906898,
+        "csi@64.5mm": 0.07984586432476028,
+        "pod@64.5mm": 0.09660631031117857,
+        "far@64.5mm": 0.6848249027237354
+      },
+      "regime[atmos+rain]": {
+        "mae": 7.166895854937559,
+        "rmse": 14.183902252840833,
+        "bias": 0.16142737809004615,
+        "corr": 0.5014753998424203,
+        "csi@64.5mm": 0.07826967161868469,
+        "pod@64.5mm": 0.09501608298095342,
+        "far@64.5mm": 0.6924786524739736
+      }
+    },
+    "B": {
+      "GraphCast": {
+        "mae": 2.5193776911296015,
+        "rmse": 4.819073426671534,
+        "bias": 0.3718501874693453,
+        "corr": 0.9029912043286948,
+        "csi@64.5mm": 0.408,
+        "pod@64.5mm": 0.4766355140186916,
+        "far@64.5mm": 0.2608695652173913
+      },
+      "HRES": {
+        "mae": 3.7060947134902227,
+        "rmse": 7.242797371845579,
+        "bias": 0.7107520631388367,
+        "corr": 0.7979476578705978,
+        "csi@64.5mm": 0.24703557312252963,
+        "pod@64.5mm": 0.3894080996884735,
+        "far@64.5mm": 0.5967741935483871
+      },
+      "equal": {
+        "mae": 2.7903241454923955,
+        "rmse": 5.330798436058001,
+        "bias": 0.541301125304091,
+        "corr": 0.8817678636590922,
+        "csi@64.5mm": 0.3251231527093596,
+        "pod@64.5mm": 0.411214953271028,
+        "far@64.5mm": 0.391705069124424
+      },
+      "phase2_inverse_error": {
+        "mae": 2.645694707891816,
+        "rmse": 5.0509436330587585,
+        "bias": 0.49307526548958786,
+        "corr": 0.8936456937782655,
+        "csi@64.5mm": 0.3554987212276215,
+        "pod@64.5mm": 0.43302180685358255,
+        "far@64.5mm": 0.3349282296650718
+      },
+      "regime": {
+        "mae": 2.641597632590881,
+        "rmse": 5.04019389797752,
+        "bias": 0.47941917246647175,
+        "corr": 0.8940127561485773,
+        "csi@64.5mm": 0.36503856041131105,
+        "pod@64.5mm": 0.4423676012461059,
+        "far@64.5mm": 0.3238095238095238
+      },
+      "extreme_aware": {
+        "mae": 2.665178593638405,
+        "rmse": 5.082837769511802,
+        "bias": 0.49680570898051724,
+        "corr": 0.8922486730626069,
+        "csi@64.5mm": 0.356234096692112,
+        "pod@64.5mm": 0.43613707165109034,
+        "far@64.5mm": 0.33962264150943394
+      }
+    }
+  },
+  "outputs": [
+    "PHASE4_RESULTS.md",
+    "data_audit\\PHASE4_DATA_AUDIT.md",
+    "data_audit\\source_audit.json",
+    "data_quality\\alignment_checks.csv",
+    "data_quality\\coverage.csv",
+    "data_quality\\missing_data.csv",
+    "data_quality\\model_grid_info.csv",
+    "data_quality\\variable_metadata.csv",
+    "datasets\\expA_aligned_2023.nc",
+    "datasets\\expA_aligned_2024.nc",
+    "datasets\\expA_aligned_2025.nc",
+    "datasets\\expB_aligned_2018.nc",
+    "datasets\\expB_aligned_2020.nc",
+    "datasets\\expB_aligned_2022.nc",
+    "figures\\expA_adaptive_weights.png",
+    "figures\\expA_final_comparison.png",
+    "figures\\expA_heavy_rain.png",
+    "figures\\expA_regime_distribution.png",
+    "figures\\expA_scores_by_season.png",
+    "figures\\expB_adaptive_weights.png",
+    "figures\\expB_final_comparison.png",
+    "figures\\expB_heavy_rain.png",
+    "figures\\expB_regime_distribution.png",
+    "figures\\expB_scores_by_season.png",
+    "manifests\\expA_dataset_manifest.csv",
+    "manifests\\expB_dataset_manifest.csv",
+    "manifests\\phase4_manifest.json",
+    "manifests\\prefetch_ECMWF.log",
+    "manifests\\prefetch_GFS.log",
+    "manifests\\prefetch_GFS_ATMOS.log",
+    "manifests\\prefetch_WB2.log",
+    "manifests\\run_phase4.log",
+    "model_scores\\expA_model_scores_by_regime_fit.csv",
+    "model_scores\\expA_scores_by_season.csv",
+    "model_scores\\expB_model_scores_by_regime_fit.csv",
+    "model_scores\\expB_scores_by_season.csv",
+    "regime_analysis\\expA_k_selection.csv",
+    "regime_analysis\\expA_regime_assignments.csv",
+    "regime_analysis\\expA_regime_model_atmos+rain.json",
+    "regime_analysis\\expA_regime_model_rain.json",
+    "regime_analysis\\expA_regime_statistics.csv",
+    "regime_analysis\\expB_k_selection.csv",
+    "regime_analysis\\expB_regime_assignments.csv",
+    "regime_analysis\\expB_regime_model_rain.json",
+    "regime_analysis\\expB_regime_statistics.csv",
+    "verification\\expA_blend_explanations.jsonl",
+    "verification\\expA_final_comparison.csv",
+    "verification\\expA_heavy_rain_scores.csv",
+    "verification\\expA_uncertainty.csv",
+    "verification\\expA_validation_comparison.csv",
+    "verification\\expB_blend_explanations.jsonl",
+    "verification\\expB_final_comparison.csv",
+    "verification\\expB_heavy_rain_scores.csv",
+    "verification\\expB_uncertainty.csv",
+    "verification\\expB_validation_comparison.csv",
+    "weights\\expA_adaptive_weights.csv",
+    "weights\\expA_static_inverse_error_weights.csv",
+    "weights\\expB_adaptive_weights.csv",
+    "weights\\expB_static_inverse_error_weights.csv"
+  ]
+}

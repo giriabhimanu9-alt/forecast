@@ -1,0 +1,19 @@
+
+Phase 4 finished. Summary numbers (test period, all lead days):
+  Experiment A:
+    GFS                      MAE 7.650  RMSE 16.04  bias -0.52  CSI64.5 0.066  POD 0.095  FAR 0.820
+    ECMWF                    MAE 7.658  RMSE 15.15  bias +0.84  CSI64.5 0.088  POD 0.117  FAR 0.737
+    equal                    MAE 7.168  RMSE 14.19  bias +0.16  CSI64.5 0.078  POD 0.095  FAR 0.694
+    phase2_inverse_error     MAE 7.168  RMSE 14.18  bias +0.16  CSI64.5 0.078  POD 0.095  FAR 0.693
+    regime                   MAE 7.167  RMSE 14.18  bias +0.16  CSI64.5 0.078  POD 0.095  FAR 0.693
+    extreme_aware            MAE 7.178  RMSE 14.16  bias +0.24  CSI64.5 0.080  POD 0.097  FAR 0.685
+    regime[atmos+rain]       MAE 7.167  RMSE 14.18  bias +0.16  CSI64.5 0.078  POD 0.095  FAR 0.692
+  Experiment B:
+    GraphCast                MAE 2.519  RMSE 4.82  bias +0.37  CSI64.5 0.408  POD 0.477  FAR 0.261
+    HRES                     MAE 3.706  RMSE 7.24  bias +0.71  CSI64.5 0.247  POD 0.389  FAR 0.597
+    equal                    MAE 2.790  RMSE 5.33  bias +0.54  CSI64.5 0.325  POD 0.411  FAR 0.392
+    phase2_inverse_error     MAE 2.646  RMSE 5.05  bias +0.49  CSI64.5 0.355  POD 0.433  FAR 0.335
+    regime                   MAE 2.642  RMSE 5.04  bias +0.48  CSI64.5 0.365  POD 0.442  FAR 0.324
+    extreme_aware            MAE 2.665  RMSE 5.08  bias +0.50  CSI64.5 0.356  POD 0.436  FAR 0.340
+Report: D:\ps81\backend\PHASE4_RESULTS.md
+EXIT=0

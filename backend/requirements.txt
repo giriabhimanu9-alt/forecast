@@ -1,0 +1,28 @@
+# Core data stack
+xarray>=2024.6
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13          # xarray bilinear interpolation (non-aligned grids)
+netCDF4>=1.7         # processed output
+
+# GRIB decoding (GFS + ECMWF). The eccodes wheel bundles the ecCodes C library.
+cfgrib>=0.9.14
+eccodes>=2.37
+
+# Phase 2 figures
+matplotlib>=3.8
+scikit-learn>=1.4   # Phase 3 regime detection (StandardScaler, PCA, KMeans)
+
+# Downloads
+requests>=2.31
+
+# IMD gridded rainfall reader
+imdlib>=0.1.20
+
+# Phase 5 API + dashboard
+fastapi>=0.110
+uvicorn>=0.29
+
+# Tests
+httpx>=0.27          # FastAPI TestClient
+pytest>=8.0

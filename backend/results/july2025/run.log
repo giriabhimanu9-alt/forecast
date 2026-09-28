@@ -1,0 +1,93 @@
+03:10:14 INFO    app.services.verification.experiment: === IMD observations (archive) ===
+03:10:19 INFO    app.services.verification.experiment: === Forecasts: 33 cycles 2025-06-28 00:00:00 .. 2025-07-30 00:00:00 ===
+03:10:22 INFO    app.services.verification.experiment: GFS 2025-06-28 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:23 INFO    app.services.verification.experiment: GFS 2025-06-29 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:23 INFO    app.services.verification.experiment: GFS 2025-06-30 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:23 INFO    app.services.verification.experiment: GFS 2025-07-01 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:24 INFO    app.services.verification.experiment: GFS 2025-07-02 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:24 INFO    app.services.verification.experiment: GFS 2025-07-03 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:25 INFO    app.services.verification.experiment: GFS 2025-07-04 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:25 INFO    app.services.verification.experiment: GFS 2025-07-05 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:26 INFO    app.services.verification.experiment: GFS 2025-07-06 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:26 INFO    app.services.verification.experiment: GFS 2025-07-07 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:27 INFO    app.services.verification.experiment: GFS 2025-07-08 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:27 INFO    app.services.verification.experiment: GFS 2025-07-09 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:28 INFO    app.services.verification.experiment: GFS 2025-07-10 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:28 INFO    app.services.verification.experiment: GFS 2025-07-11 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:29 INFO    app.services.verification.experiment: GFS 2025-07-12 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:29 INFO    app.services.verification.experiment: GFS 2025-07-13 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:30 INFO    app.services.verification.experiment: GFS 2025-07-14 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:31 INFO    app.services.verification.experiment: GFS 2025-07-15 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:31 INFO    app.services.verification.experiment: GFS 2025-07-16 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:32 INFO    app.services.verification.experiment: GFS 2025-07-17 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:32 INFO    app.services.verification.experiment: GFS 2025-07-18 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:32 INFO    app.services.verification.experiment: GFS 2025-07-19 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:33 INFO    app.services.verification.experiment: GFS 2025-07-20 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:34 INFO    app.services.verification.experiment: GFS 2025-07-21 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:34 INFO    app.services.verification.experiment: GFS 2025-07-22 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:34 INFO    app.services.verification.experiment: GFS 2025-07-23 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:35 INFO    app.services.verification.experiment: GFS 2025-07-24 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:35 INFO    app.services.verification.experiment: GFS 2025-07-25 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:36 INFO    app.services.verification.experiment: GFS 2025-07-26 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:36 INFO    app.services.verification.experiment: GFS 2025-07-27 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:37 INFO    app.services.verification.experiment: GFS 2025-07-28 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:37 INFO    app.services.verification.experiment: GFS 2025-07-29 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:38 INFO    app.services.verification.experiment: GFS 2025-07-30 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:41 INFO    app.services.verification.experiment: ECMWF 2025-06-28 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:41 INFO    app.services.verification.experiment: ECMWF 2025-06-29 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:42 INFO    app.services.verification.experiment: ECMWF 2025-06-30 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:42 INFO    app.services.verification.experiment: ECMWF 2025-07-01 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:43 INFO    app.services.verification.experiment: ECMWF 2025-07-02 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:43 INFO    app.services.verification.experiment: ECMWF 2025-07-03 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:44 INFO    app.services.verification.experiment: ECMWF 2025-07-04 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:45 INFO    app.services.verification.experiment: ECMWF 2025-07-05 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:45 INFO    app.services.verification.experiment: ECMWF 2025-07-06 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:46 INFO    app.services.verification.experiment: ECMWF 2025-07-07 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:46 INFO    app.services.verification.experiment: ECMWF 2025-07-08 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:47 INFO    app.services.verification.experiment: ECMWF 2025-07-09 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:48 INFO    app.services.verification.experiment: ECMWF 2025-07-10 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:48 INFO    app.services.verification.experiment: ECMWF 2025-07-11 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:49 INFO    app.services.verification.experiment: ECMWF 2025-07-12 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:49 INFO    app.services.verification.experiment: ECMWF 2025-07-13 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:50 INFO    app.services.verification.experiment: ECMWF 2025-07-14 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:50 INFO    app.services.verification.experiment: ECMWF 2025-07-15 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:51 INFO    app.services.verification.experiment: ECMWF 2025-07-16 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:51 INFO    app.services.verification.experiment: ECMWF 2025-07-17 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:52 INFO    app.services.verification.experiment: ECMWF 2025-07-18 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:53 INFO    app.services.verification.experiment: ECMWF 2025-07-19 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:53 INFO    app.services.verification.experiment: ECMWF 2025-07-20 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:54 INFO    app.services.verification.experiment: ECMWF 2025-07-21 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:54 INFO    app.services.verification.experiment: ECMWF 2025-07-22 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:55 INFO    app.services.verification.experiment: ECMWF 2025-07-23 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:55 INFO    app.services.verification.experiment: ECMWF 2025-07-24 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:56 INFO    app.services.verification.experiment: ECMWF 2025-07-25 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:56 INFO    app.services.verification.experiment: ECMWF 2025-07-26 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:57 INFO    app.services.verification.experiment: ECMWF 2025-07-27 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:57 INFO    app.services.verification.experiment: ECMWF 2025-07-28 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:58 INFO    app.services.verification.experiment: ECMWF 2025-07-29 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+03:10:59 INFO    app.services.verification.experiment: ECMWF 2025-07-30 00Z: 4 raw GRIB messages (0 downloaded, 4 cached)
+
+========================================================================
+Experiment: july2025   [HISTORICAL EXPERIMENT]
+Models available: GFS, ECMWF
+Aligned samples: 93 (lead days 1, 2, 3), train days 23, test days 8
+Test period (IMD labels): 2025-07-24 .. 2025-07-31
+
+TEST PERIOD, all lead days pooled (mm / 24 h, common grid points only):
+Best individual model by MAE: GFS (9.407)
+Other individual model ECMWF MAE: 9.485
+Equal blend MAE: 8.762
+Inverse-error blend MAE: 8.761
+Regional adaptive blend MAE: 8.761
+Blend improvement versus best individual: best blend = Regional blend, +6.87% MAE change (MAE difference -0.646 mm, 95% CI [-0.837, -0.451], 8 test days) -> better (95% CI < 0)
+The blend beat the best individual model on the independent test period.
+Inverse-error blend vs equal blend: MAE difference -0.0004 mm (95% CI [-0.0018, +0.0011])
+Regional blend vs equal blend: MAE difference -0.0006 mm (95% CI [-0.0037, +0.0036])
+-> Skill-based weights add no measurable benefit over equal weighting here (|diff| < 0.01 mm); the blend gain comes from averaging the two models.
+Mean bias (forecast - IMD): GFS -0.646, ECMWF +0.939, Equal blend +0.147, Inverse-error blend +0.148, Regional blend +0.145
+Heavy rain (>= 64.5 mm/24 h) CSI: best individual ECMWF 0.095, best blend Regional blend 0.070 -> blend is LOWER (averaging smooths extremes)
+
+IMD period check (lead-day-1 pattern correlation by label offset -1/0/+1 day): GFS: -1:0.285, 0:0.442, 1:0.297; ECMWF: -1:0.308, 0:0.531, 1:0.315
+Convention consistent with data: YES
+========================================================================
+Results: D:\ps81\backend\results\july2025

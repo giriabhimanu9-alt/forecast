@@ -1,0 +1,433 @@
+feature_set,method,regime,regime_name,lead_day,region,model,weight,training_error,error_metric,sample_count,n_points,level,training_start,training_end
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,GFS,0.476446,2.174747,mae,79,75366,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,ECMWF,0.523554,1.970076,mae,79,75366,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,GFS,0.492184,2.207910,mae,79,82397,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,ECMWF,0.507816,2.136864,mae,79,82397,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,GFS,0.462123,3.028477,mae,79,75840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,ECMWF,0.537877,2.587868,mae,79,75840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,GFS,0.497440,4.945327,mae,79,54668,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,ECMWF,0.502560,4.893934,mae,79,54668,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,GFS,0.502018,4.816949,mae,79,68098,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,ECMWF,0.497982,4.856799,mae,79,68098,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,GFS,0.523436,11.068996,mae,79,35787,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.476564,12.167530,mae,79,35787,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,GFS,0.506814,5.558081,mae,165,157410,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,ECMWF,0.493186,5.714427,mae,165,157410,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,GFS,0.475382,9.019475,mae,165,172095,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,ECMWF,0.524618,8.163598,mae,165,172095,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,GFS,0.488802,11.065246,mae,165,158400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,ECMWF,0.511198,10.576074,mae,165,158400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,GFS,0.502479,9.671347,mae,165,114180,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,ECMWF,0.497521,9.768735,mae,165,114180,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,GFS,0.508407,6.778915,mae,165,142230,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,ECMWF,0.491593,7.014204,mae,165,142230,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GFS,0.467642,14.409557,mae,165,74745,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.532358,12.645683,mae,165,74745,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,GFS,0.462436,2.359036,mae,84,80136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,ECMWF,0.537564,2.015366,mae,84,80136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,GFS,0.509171,2.253600,mae,84,87612,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,ECMWF,0.490829,2.341555,mae,84,87612,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,GFS,0.491819,3.278964,mae,84,80640,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,ECMWF,0.508181,3.170166,mae,84,80640,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,GFS,0.488286,5.530541,mae,84,58128,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,ECMWF,0.511714,5.272754,mae,84,58128,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,GFS,0.527654,4.568063,mae,84,72408,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,ECMWF,0.472346,5.114654,mae,84,72408,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,GFS,0.543159,10.993588,mae,84,38052,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.456841,13.089665,mae,84,38052,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,GFS,0.485069,6.430545,mae,160,152640,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,ECMWF,0.514931,6.051823,mae,160,152640,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,GFS,0.504725,9.031141,mae,160,166880,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,ECMWF,0.495275,9.205365,mae,160,166880,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,GFS,0.494653,11.675351,mae,160,153600,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,ECMWF,0.505347,11.426147,mae,160,153600,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,GFS,0.490474,10.580558,mae,160,110720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,ECMWF,0.509526,10.181200,mae,160,110720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,GFS,0.506262,6.903739,mae,160,137920,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,ECMWF,0.493738,7.081407,mae,160,137920,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GFS,0.502973,13.366166,mae,160,72480,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.497027,13.527291,mae,160,72480,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,GFS,0.448328,2.481209,mae,87,82998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,ECMWF,0.551672,1.997678,mae,87,82998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,GFS,0.524938,2.123991,mae,87,90741,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,ECMWF,0.475062,2.357483,mae,87,90741,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,GFS,0.499708,3.601056,mae,87,83520,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,ECMWF,0.500292,3.596736,mae,87,83520,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,GFS,0.504460,5.928772,mae,87,60204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,ECMWF,0.495540,6.037287,mae,87,60204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,GFS,0.536237,4.760218,mae,87,74994,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,ECMWF,0.463763,5.519736,mae,87,74994,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,GFS,0.544117,11.758360,mae,87,39411,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.455883,14.053465,mae,87,39411,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,GFS,0.468350,7.218229,mae,157,149778,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,ECMWF,0.531650,6.346900,mae,157,149778,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,GFS,0.505719,9.517257,mae,157,163751,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,ECMWF,0.494281,9.739826,mae,157,163751,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,GFS,0.495365,12.338270,mae,157,150720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,ECMWF,0.504635,12.109801,mae,157,150720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,GFS,0.487946,11.008431,mae,157,108644,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,ECMWF,0.512054,10.485430,mae,157,108644,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,GFS,0.513762,7.009834,mae,157,135334,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,ECMWF,0.486238,7.412307,mae,157,135334,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GFS,0.518882,12.713559,mae,157,71121,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.481118,13.719338,mae,157,71121,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,GFS,0.476446,2.174747,mae,79,75366,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,North,ECMWF,0.523554,1.970076,mae,79,75366,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,GFS,0.492184,2.207910,mae,79,82397,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,West,ECMWF,0.507816,2.136864,mae,79,82397,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,GFS,0.462123,3.028477,mae,79,75840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Central,ECMWF,0.537877,2.587868,mae,79,75840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,GFS,0.497440,4.945327,mae,79,54668,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,East,ECMWF,0.502560,4.893934,mae,79,54668,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,GFS,0.502018,4.816949,mae,79,68098,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,South,ECMWF,0.497982,4.856799,mae,79,68098,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,GFS,0.523436,11.068996,mae,79,35787,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.476564,12.167530,mae,79,35787,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,GFS,0.467952,0.854566,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,ECMWF,0.532048,0.834646,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,GFS,0.467952,0.854566,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,ECMWF,0.532048,0.834646,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,GFS,0.467952,0.854566,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,ECMWF,0.532048,0.834646,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,GFS,0.467952,0.854566,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,ECMWF,0.532048,0.834646,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,GFS,0.467952,0.854566,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,ECMWF,0.532048,0.834646,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GFS,0.467952,0.854566,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.532048,0.834646,1 - CSI@64.5mm,165,819060,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,GFS,0.462436,2.359036,mae,84,80136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,North,ECMWF,0.537564,2.015366,mae,84,80136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,GFS,0.509171,2.253600,mae,84,87612,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,West,ECMWF,0.490829,2.341555,mae,84,87612,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,GFS,0.491819,3.278964,mae,84,80640,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Central,ECMWF,0.508181,3.170166,mae,84,80640,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,GFS,0.488286,5.530541,mae,84,58128,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,East,ECMWF,0.511714,5.272754,mae,84,58128,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,GFS,0.527654,4.568063,mae,84,72408,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,South,ECMWF,0.472346,5.114654,mae,84,72408,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,GFS,0.543159,10.993588,mae,84,38052,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.456841,13.089665,mae,84,38052,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,GFS,0.455663,0.895802,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,ECMWF,0.544337,0.875525,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,GFS,0.455663,0.895802,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,ECMWF,0.544337,0.875525,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,GFS,0.455663,0.895802,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,ECMWF,0.544337,0.875525,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,GFS,0.455663,0.895802,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,ECMWF,0.544337,0.875525,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,GFS,0.455663,0.895802,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,ECMWF,0.544337,0.875525,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GFS,0.455663,0.895802,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.544337,0.875525,1 - CSI@64.5mm,160,794240,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,GFS,0.448328,2.481209,mae,87,82998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,North,ECMWF,0.551672,1.997678,mae,87,82998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,GFS,0.524938,2.123991,mae,87,90741,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,West,ECMWF,0.475062,2.357483,mae,87,90741,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,GFS,0.499708,3.601056,mae,87,83520,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Central,ECMWF,0.500292,3.596736,mae,87,83520,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,GFS,0.504460,5.928772,mae,87,60204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,East,ECMWF,0.495540,6.037287,mae,87,60204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,GFS,0.536237,4.760218,mae,87,74994,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,South,ECMWF,0.463763,5.519736,mae,87,74994,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,GFS,0.544117,11.758360,mae,87,39411,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.455883,14.053465,mae,87,39411,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,GFS,0.400424,0.925293,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,ECMWF,0.599576,0.888137,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,GFS,0.400424,0.925293,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,ECMWF,0.599576,0.888137,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,GFS,0.400424,0.925293,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,ECMWF,0.599576,0.888137,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,GFS,0.400424,0.925293,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,ECMWF,0.599576,0.888137,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,GFS,0.400424,0.925293,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,ECMWF,0.599576,0.888137,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GFS,0.400424,0.925293,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.599576,0.888137,1 - CSI@64.5mm,157,779348,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,North,GFS,0.490345,1.615696,mae,32,30528,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,North,ECMWF,0.509655,1.550692,mae,32,30528,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,West,GFS,0.486489,1.608004,mae,32,33376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,West,ECMWF,0.513511,1.518124,mae,32,33376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,Central,GFS,0.472449,2.898578,mae,32,30720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,Central,ECMWF,0.527551,2.585378,mae,32,30720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,East,GFS,0.511595,3.302635,mae,32,22144,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,East,ECMWF,0.488405,3.464191,mae,32,22144,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,South,GFS,0.512142,5.436635,mae,32,27584,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,South,ECMWF,0.487858,5.712234,mae,32,27584,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,Northeast,GFS,0.498877,4.699075,mae,32,14496,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),1,Northeast,ECMWF,0.501123,4.677573,mae,32,14496,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,GFS,0.466907,2.490812,mae,43,41022,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,ECMWF,0.533093,2.169153,mae,43,41022,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,GFS,0.496962,2.649157,mae,43,44849,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,ECMWF,0.503038,2.615948,mae,43,44849,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,GFS,0.466570,2.434304,mae,43,41280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,ECMWF,0.533430,2.116659,mae,43,41280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,GFS,0.488617,5.821049,mae,43,29756,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,ECMWF,0.511383,5.557453,mae,43,29756,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,GFS,0.496969,4.616453,mae,43,37066,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,ECMWF,0.503031,4.559613,mae,43,37066,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GFS,0.525320,17.201468,mae,43,19479,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.474680,19.047210,mae,43,19479,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,North,GFS,0.510196,4.850435,mae,90,85860,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,North,ECMWF,0.489804,5.056529,mae,90,85860,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,West,GFS,0.491586,5.895597,mae,90,93870,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,West,ECMWF,0.508414,5.697153,mae,90,93870,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Central,GFS,0.480390,9.734106,mae,90,86400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Central,ECMWF,0.519610,8.991831,mae,90,86400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,East,GFS,0.499466,9.836399,mae,90,62280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,East,ECMWF,0.500534,9.815204,mae,90,62280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,South,GFS,0.509698,5.504160,mae,90,77580,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,South,ECMWF,0.490302,5.725866,mae,90,77580,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GFS,0.468076,12.665303,mae,90,40770,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.531924,11.133064,mae,90,40770,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,North,GFS,0.503461,6.247368,mae,79,75366,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,North,ECMWF,0.496539,6.335862,mae,79,75366,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,West,GFS,0.465834,12.236261,mae,79,82397,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,West,ECMWF,0.534166,10.658182,mae,79,82397,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Central,GFS,0.493658,12.550837,mae,79,75840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Central,ECMWF,0.506342,12.233930,mae,79,75840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,East,GFS,0.506579,9.432755,mae,79,54668,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,East,ECMWF,0.493421,9.686950,mae,79,54668,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,South,GFS,0.506045,7.989948,mae,79,68098,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,South,ECMWF,0.493955,8.187950,mae,79,68098,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Northeast,GFS,0.468676,15.469833,mae,79,35787,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Northeast,ECMWF,0.531324,13.633980,mae,79,35787,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,North,GFS,0.464490,1.650716,mae,29,27666,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,North,ECMWF,0.535510,1.418535,mae,29,27666,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,West,GFS,0.493977,1.526023,mae,29,30247,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,West,ECMWF,0.506023,1.487316,mae,29,30247,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,Central,GFS,0.497080,2.658310,mae,29,27840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,Central,ECMWF,0.502920,2.626275,mae,29,27840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,East,GFS,0.505467,3.132727,mae,29,20068,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,East,ECMWF,0.494533,3.204207,mae,29,20068,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,South,GFS,0.522500,4.813327,mae,29,24998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,South,ECMWF,0.477500,5.276369,mae,29,24998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,Northeast,GFS,0.502156,4.927574,mae,29,13137,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),2,Northeast,ECMWF,0.497844,4.971122,mae,29,13137,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,GFS,0.454931,2.796560,mae,46,43884,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,ECMWF,0.545069,2.317559,mae,46,43884,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,GFS,0.515612,2.787047,mae,46,47978,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,ECMWF,0.484388,2.973149,mae,46,47978,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,GFS,0.472588,2.705082,mae,46,44160,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,ECMWF,0.527412,2.413498,mae,46,44160,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,GFS,0.478393,6.297560,mae,46,31832,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,ECMWF,0.521607,5.767538,mae,46,31832,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,GFS,0.538086,4.289237,mae,46,39652,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,ECMWF,0.461914,5.013040,mae,46,39652,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GFS,0.554546,15.787929,mae,46,20838,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.445454,19.678895,mae,46,20838,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,North,GFS,0.490902,5.159788,mae,99,94446,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,North,ECMWF,0.509098,4.971800,mae,99,94446,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,West,GFS,0.502737,6.289526,mae,99,103257,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,West,ECMWF,0.497263,6.359851,mae,99,103257,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Central,GFS,0.485909,10.498990,mae,99,95040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Central,ECMWF,0.514091,9.917975,mae,99,95040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,East,GFS,0.490463,10.812370,mae,99,68508,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,East,ECMWF,0.509537,10.403885,mae,99,68508,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,South,GFS,0.504691,5.772175,mae,99,85338,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,South,ECMWF,0.495309,5.883399,mae,99,85338,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GFS,0.496351,12.386745,mae,99,44847,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.503649,12.205785,mae,99,44847,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,North,GFS,0.479985,7.710209,mae,70,66780,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,North,ECMWF,0.520015,7.108986,mae,70,66780,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,West,GFS,0.506089,11.988044,mae,70,73010,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,West,ECMWF,0.493911,12.286096,mae,70,73010,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Central,GFS,0.506203,12.893778,mae,70,67200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Central,ECMWF,0.493797,13.220214,mae,70,67200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,East,GFS,0.491880,10.092761,mae,70,48440,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,East,ECMWF,0.508120,9.766999,mae,70,48440,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,South,GFS,0.506974,8.285412,mae,70,60340,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,South,ECMWF,0.493026,8.522642,mae,70,60340,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Northeast,GFS,0.509945,13.808799,mae,70,31710,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Northeast,ECMWF,0.490055,14.373344,mae,70,31710,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,North,GFS,0.439657,1.677850,mae,28,26712,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,North,ECMWF,0.560343,1.294941,mae,28,26712,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,West,GFS,0.504564,1.594688,mae,28,29204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,West,ECMWF,0.495436,1.625909,mae,28,29204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,Central,GFS,0.495308,2.657579,mae,28,26880,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,Central,ECMWF,0.504692,2.606308,mae,28,26880,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,East,GFS,0.507442,2.784814,mae,28,19376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,East,ECMWF,0.492558,2.871991,mae,28,19376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,South,GFS,0.516432,5.200614,mae,28,24136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,South,ECMWF,0.483568,5.560862,mae,28,24136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,Northeast,GFS,0.493275,5.401698,mae,28,12684,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,0,REGIME_0: LOW RAINFALL (wettest: South),3,Northeast,ECMWF,0.506725,5.255659,mae,28,12684,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,GFS,0.459443,3.017342,mae,49,46746,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,ECMWF,0.540557,2.549565,mae,49,46746,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,GFS,0.543248,2.600650,mae,49,51107,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,ECMWF,0.456752,3.112073,mae,49,51107,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,GFS,0.500098,2.925702,mae,49,47040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,ECMWF,0.499902,2.926887,mae,49,47040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,GFS,0.497279,6.995028,mae,49,33908,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,ECMWF,0.502721,6.918226,mae,49,33908,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,GFS,0.551969,4.409076,mae,49,42238,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,ECMWF,0.448031,5.455127,mae,49,42238,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GFS,0.560360,16.139088,mae,49,22197,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.439640,20.598151,mae,49,22197,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,North,GFS,0.477313,5.626294,mae,100,95400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,North,ECMWF,0.522687,5.129202,mae,100,95400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,West,GFS,0.504970,6.771571,mae,100,104300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,West,ECMWF,0.495030,6.909552,mae,100,104300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Central,GFS,0.498141,10.607060,mae,100,96000,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Central,ECMWF,0.501859,10.527754,mae,100,96000,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,East,GFS,0.489093,11.332197,mae,100,69200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,East,ECMWF,0.510907,10.844059,mae,100,69200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,South,GFS,0.514049,5.814185,mae,100,86200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,South,ECMWF,0.485951,6.156153,mae,100,86200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GFS,0.520195,11.489202,mae,100,45300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.479805,12.464783,mae,100,45300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,North,GFS,0.456633,8.830869,mae,67,63918,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,North,ECMWF,0.543367,7.405286,mae,67,63918,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,West,GFS,0.504598,12.384422,mae,67,69881,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,West,ECMWF,0.495402,12.616142,mae,67,69881,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Central,GFS,0.493023,14.506308,mae,67,64320,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Central,ECMWF,0.506977,14.104258,mae,67,64320,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,East,GFS,0.491783,10.301134,mae,67,46364,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,East,ECMWF,0.508217,9.964803,mae,67,46364,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,South,GFS,0.514167,8.531382,mae,67,57754,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,South,ECMWF,0.485833,9.034756,mae,67,57754,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Northeast,GFS,0.511910,13.851090,mae,67,30351,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,regime,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Northeast,ECMWF,0.488090,14.531960,mae,67,30351,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,North,GFS,0.490345,1.615696,mae,32,30528,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,North,ECMWF,0.509655,1.550692,mae,32,30528,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,West,GFS,0.486489,1.608004,mae,32,33376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,West,ECMWF,0.513511,1.518124,mae,32,33376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,Central,GFS,0.472449,2.898578,mae,32,30720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,Central,ECMWF,0.527551,2.585378,mae,32,30720,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,East,GFS,0.511595,3.302635,mae,32,22144,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,East,ECMWF,0.488405,3.464191,mae,32,22144,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,South,GFS,0.512142,5.436635,mae,32,27584,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,South,ECMWF,0.487858,5.712234,mae,32,27584,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,Northeast,GFS,0.498877,4.699075,mae,32,14496,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),1,Northeast,ECMWF,0.501123,4.677573,mae,32,14496,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,GFS,0.466907,2.490812,mae,43,41022,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,North,ECMWF,0.533093,2.169153,mae,43,41022,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,GFS,0.496962,2.649157,mae,43,44849,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,West,ECMWF,0.503038,2.615948,mae,43,44849,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,GFS,0.466570,2.434304,mae,43,41280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Central,ECMWF,0.533430,2.116659,mae,43,41280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,GFS,0.488617,5.821049,mae,43,29756,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,East,ECMWF,0.511383,5.557453,mae,43,29756,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,GFS,0.496969,4.616453,mae,43,37066,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,South,ECMWF,0.503031,4.559613,mae,43,37066,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GFS,0.525320,17.201468,mae,43,19479,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.474680,19.047210,mae,43,19479,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,North,GFS,0.510196,4.850435,mae,90,85860,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,North,ECMWF,0.489804,5.056529,mae,90,85860,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,West,GFS,0.491586,5.895597,mae,90,93870,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,West,ECMWF,0.508414,5.697153,mae,90,93870,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Central,GFS,0.480390,9.734106,mae,90,86400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Central,ECMWF,0.519610,8.991831,mae,90,86400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,East,GFS,0.499466,9.836399,mae,90,62280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,East,ECMWF,0.500534,9.815204,mae,90,62280,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,South,GFS,0.509698,5.504160,mae,90,77580,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,South,ECMWF,0.490302,5.725866,mae,90,77580,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Northeast,GFS,0.468076,12.665303,mae,90,40770,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),1,Northeast,ECMWF,0.531924,11.133064,mae,90,40770,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,North,GFS,0.470190,0.838006,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,North,ECMWF,0.529810,0.817465,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,West,GFS,0.470190,0.838006,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,West,ECMWF,0.529810,0.817465,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Central,GFS,0.470190,0.838006,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Central,ECMWF,0.529810,0.817465,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,East,GFS,0.470190,0.838006,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,East,ECMWF,0.529810,0.817465,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,South,GFS,0.470190,0.838006,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,South,ECMWF,0.529810,0.817465,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Northeast,GFS,0.470190,0.838006,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),1,Northeast,ECMWF,0.529810,0.817465,1 - CSI@64.5mm,79,392156,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,North,GFS,0.464490,1.650716,mae,29,27666,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,North,ECMWF,0.535510,1.418535,mae,29,27666,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,West,GFS,0.493977,1.526023,mae,29,30247,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,West,ECMWF,0.506023,1.487316,mae,29,30247,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,Central,GFS,0.497080,2.658310,mae,29,27840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,Central,ECMWF,0.502920,2.626275,mae,29,27840,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,East,GFS,0.505467,3.132727,mae,29,20068,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,East,ECMWF,0.494533,3.204207,mae,29,20068,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,South,GFS,0.522500,4.813327,mae,29,24998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,South,ECMWF,0.477500,5.276369,mae,29,24998,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,Northeast,GFS,0.502156,4.927574,mae,29,13137,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),2,Northeast,ECMWF,0.497844,4.971122,mae,29,13137,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,GFS,0.454931,2.796560,mae,46,43884,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,North,ECMWF,0.545069,2.317559,mae,46,43884,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,GFS,0.515612,2.787047,mae,46,47978,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,West,ECMWF,0.484388,2.973149,mae,46,47978,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,GFS,0.472588,2.705082,mae,46,44160,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Central,ECMWF,0.527412,2.413498,mae,46,44160,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,GFS,0.478393,6.297560,mae,46,31832,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,East,ECMWF,0.521607,5.767538,mae,46,31832,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,GFS,0.538086,4.289237,mae,46,39652,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,South,ECMWF,0.461914,5.013040,mae,46,39652,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GFS,0.554546,15.787929,mae,46,20838,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.445454,19.678895,mae,46,20838,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,North,GFS,0.490902,5.159788,mae,99,94446,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,North,ECMWF,0.509098,4.971800,mae,99,94446,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,West,GFS,0.502737,6.289526,mae,99,103257,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,West,ECMWF,0.497263,6.359851,mae,99,103257,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Central,GFS,0.485909,10.498990,mae,99,95040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Central,ECMWF,0.514091,9.917975,mae,99,95040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,East,GFS,0.490463,10.812370,mae,99,68508,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,East,ECMWF,0.509537,10.403885,mae,99,68508,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,South,GFS,0.504691,5.772175,mae,99,85338,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,South,ECMWF,0.495309,5.883399,mae,99,85338,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Northeast,GFS,0.496351,12.386745,mae,99,44847,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),2,Northeast,ECMWF,0.503649,12.205785,mae,99,44847,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,North,GFS,0.455527,0.881443,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,North,ECMWF,0.544473,0.858293,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,West,GFS,0.455527,0.881443,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,West,ECMWF,0.544473,0.858293,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Central,GFS,0.455527,0.881443,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Central,ECMWF,0.544473,0.858293,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,East,GFS,0.455527,0.881443,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,East,ECMWF,0.544473,0.858293,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,South,GFS,0.455527,0.881443,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,South,ECMWF,0.544473,0.858293,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Northeast,GFS,0.455527,0.881443,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),2,Northeast,ECMWF,0.544473,0.858293,1 - CSI@64.5mm,70,347480,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,North,GFS,0.439657,1.677850,mae,28,26712,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,North,ECMWF,0.560343,1.294941,mae,28,26712,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,West,GFS,0.504564,1.594688,mae,28,29204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,West,ECMWF,0.495436,1.625909,mae,28,29204,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,Central,GFS,0.495308,2.657579,mae,28,26880,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,Central,ECMWF,0.504692,2.606308,mae,28,26880,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,East,GFS,0.507442,2.784814,mae,28,19376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,East,ECMWF,0.492558,2.871991,mae,28,19376,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,South,GFS,0.516432,5.200614,mae,28,24136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,South,ECMWF,0.483568,5.560862,mae,28,24136,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,Northeast,GFS,0.493275,5.401698,mae,28,12684,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,0,REGIME_0: LOW RAINFALL (wettest: South),3,Northeast,ECMWF,0.506725,5.255659,mae,28,12684,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,GFS,0.459443,3.017342,mae,49,46746,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,North,ECMWF,0.540557,2.549565,mae,49,46746,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,GFS,0.543248,2.600650,mae,49,51107,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,West,ECMWF,0.456752,3.112073,mae,49,51107,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,GFS,0.500098,2.925702,mae,49,47040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Central,ECMWF,0.499902,2.926887,mae,49,47040,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,GFS,0.497279,6.995028,mae,49,33908,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,East,ECMWF,0.502721,6.918226,mae,49,33908,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,GFS,0.551969,4.409076,mae,49,42238,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,South,ECMWF,0.448031,5.455127,mae,49,42238,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GFS,0.560360,16.139088,mae,49,22197,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,1,REGIME_1: MODERATE RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.439640,20.598151,mae,49,22197,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,North,GFS,0.477313,5.626294,mae,100,95400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,North,ECMWF,0.522687,5.129202,mae,100,95400,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,West,GFS,0.504970,6.771571,mae,100,104300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,West,ECMWF,0.495030,6.909552,mae,100,104300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Central,GFS,0.498141,10.607060,mae,100,96000,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Central,ECMWF,0.501859,10.527754,mae,100,96000,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,East,GFS,0.489093,11.332197,mae,100,69200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,East,ECMWF,0.510907,10.844059,mae,100,69200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,South,GFS,0.514049,5.814185,mae,100,86200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,South,ECMWF,0.485951,6.156153,mae,100,86200,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Northeast,GFS,0.520195,11.489202,mae,100,45300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,2,REGIME_2: MODERATE RAINFALL (wettest: Northeast),3,Northeast,ECMWF,0.479805,12.464783,mae,100,45300,regime+lead+region,2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,North,GFS,0.403277,0.913944,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,North,ECMWF,0.596723,0.872664,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,West,GFS,0.403277,0.913944,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,West,ECMWF,0.596723,0.872664,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Central,GFS,0.403277,0.913944,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Central,ECMWF,0.596723,0.872664,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,East,GFS,0.403277,0.913944,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,East,ECMWF,0.596723,0.872664,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,South,GFS,0.403277,0.913944,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,South,ECMWF,0.596723,0.872664,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Northeast,GFS,0.403277,0.913944,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00
+atmos+rain,extreme_aware,3,REGIME_3: HEAVY RAINFALL (wettest: Central),3,Northeast,ECMWF,0.596723,0.872664,1 - CSI@64.5mm,67,332588,regime+lead CSI@64.5 (all India),2023-05-31T03:00:00,2024-09-30T03:00:00

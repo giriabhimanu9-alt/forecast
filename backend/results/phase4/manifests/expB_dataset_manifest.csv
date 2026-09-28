@@ -1,0 +1,4 @@
+experiment,season,forecast_start,forecast_end,observation_start,observation_end,forecast_models,observation_source,missing_days,missing_cycles,samples
+B,2018,2018-05-30T00:00:00,2018-09-30T00:00:00,2018-06-02,2018-10-01,"GraphCast,HRES","ERA5 (WeatherBench 2, 1.5 deg), India land cells",0,0,366
+B,2020,2020-05-30T00:00:00,2020-09-30T00:00:00,2020-06-02,2020-10-01,"GraphCast,HRES","ERA5 (WeatherBench 2, 1.5 deg), India land cells",0,0,366
+B,2022,2022-05-30T00:00:00,2022-09-30T00:00:00,2022-06-02,2022-10-01,"GraphCast,HRES","ERA5 (WeatherBench 2, 1.5 deg), India land cells",0,0,366

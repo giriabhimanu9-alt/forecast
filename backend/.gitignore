@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.part
+*.idx
+
+# Phase 2: large intermediate file (regenerable from the cache)
+results/*/aligned_samples.nc
+
+# Phase 4: aligned multi-season datasets (large, regenerable from the cache)
+results/phase4/datasets/*.nc

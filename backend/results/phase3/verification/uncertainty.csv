@@ -1,0 +1,9 @@
+method,versus,test_days,mae_difference,mae_ci95_low,mae_ci95_high,mae_verdict,heavy_csi_difference,csi_ci95_low,csi_ci95_high,heavy_csi_verdict
+regime,equal,8,0.00571,0.00329,0.00788,worse (95% CI > 0),0.00014,-0.00102,0.00161,not distinguishable
+regime,phase2_inverse_error,8,0.00606,0.00281,0.00891,worse (95% CI > 0),-0.00012,-0.00057,0.00042,not distinguishable
+regime,GFS,8,-0.63998,-0.82953,-0.44421,better (95% CI < 0),0.01801,-0.01484,0.06367,not distinguishable
+regime,ECMWF,8,-0.71780,-0.89416,-0.56976,better (95% CI < 0),-0.02478,-0.04624,-0.00506,worse (95% CI < 0)
+extreme_aware,equal,8,0.12851,0.05828,0.20252,worse (95% CI > 0),-0.00169,-0.01229,0.00834,not distinguishable
+extreme_aware,phase2_inverse_error,8,0.12887,0.05780,0.20326,worse (95% CI > 0),-0.00196,-0.01319,0.00860,not distinguishable
+extreme_aware,GFS,8,-0.51717,-0.72695,-0.29300,better (95% CI < 0),0.01618,-0.01300,0.05601,not distinguishable
+extreme_aware,ECMWF,8,-0.59499,-0.71212,-0.50720,better (95% CI < 0),-0.02662,-0.05634,-0.00199,worse (95% CI < 0)

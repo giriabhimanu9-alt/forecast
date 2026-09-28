@@ -1,0 +1,7 @@
+method,lead_day,model,weight,training_error,n_points
+phase2_inverse_error,1,GFS,0.492682,8.448185,114172
+phase2_inverse_error,1,ECMWF,0.507318,8.201585,114172
+phase2_inverse_error,2,GFS,0.501808,8.867015,114172
+phase2_inverse_error,2,ECMWF,0.498192,8.932106,114172
+phase2_inverse_error,3,GFS,0.503629,9.464281,114172
+phase2_inverse_error,3,ECMWF,0.496371,9.604141,114172

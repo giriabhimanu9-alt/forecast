@@ -1,0 +1,16 @@
+experiment,season,model,native_grid,target_grid,method,ocean_missing
+A,2023,GFS,0.25 deg regular lat/lon,"0.25 deg, 5-38N 68-98E (133x121)",exact-subset (aligned grids),scored only on IMD land (IMD NaN over ocean)
+A,2023,ECMWF,0.4 deg regular lat/lon,"0.25 deg, 5-38N 68-98E (133x121)",bilinear interpolation,scored only on IMD land
+A,2023,GFS_ATMOS_1P00,1.0 deg,0.25 deg (then box means),bilinear interpolation,n/a
+A,2023,IMD,"0.25 deg (6.5-38.5N, 66.5-100E)",0.25 deg,exact-subset,NaN outside land mask (by design)
+A,2024,GFS,0.25 deg regular lat/lon,"0.25 deg, 5-38N 68-98E (133x121)",exact-subset (aligned grids),scored only on IMD land (IMD NaN over ocean)
+A,2024,ECMWF,0.25 deg regular lat/lon,"0.25 deg, 5-38N 68-98E (133x121)",exact-subset (aligned grids),scored only on IMD land
+A,2024,GFS_ATMOS_1P00,1.0 deg,0.25 deg (then box means),bilinear interpolation,n/a
+A,2024,IMD,"0.25 deg (6.5-38.5N, 66.5-100E)",0.25 deg,exact-subset,NaN outside land mask (by design)
+A,2025,GFS,0.25 deg regular lat/lon,"0.25 deg, 5-38N 68-98E (133x121)",exact-subset (aligned grids),scored only on IMD land (IMD NaN over ocean)
+A,2025,ECMWF,0.25 deg regular lat/lon,"0.25 deg, 5-38N 68-98E (133x121)",exact-subset (aligned grids),scored only on IMD land
+A,2025,GFS_ATMOS_1P00,1.0 deg,0.25 deg (then box means),bilinear interpolation,n/a
+A,2025,IMD,"0.25 deg (6.5-38.5N, 66.5-100E)",0.25 deg,exact-subset,NaN outside land mask (by design)
+B,"2018,2020,2022",GraphCast,"1.5 deg (WB2 240x121, conservative from 0.25 deg)","1.5 deg, 6-37.5N 67.5-97.5E (22x21)",exact-subset,scored on 1.5 deg cells with >= 50% IMD land
+B,"2018,2020,2022",HRES,"1.5 deg (WB2 240x121, conservative from 0.25 deg)","1.5 deg, 6-37.5N 67.5-97.5E (22x21)",exact-subset,scored on 1.5 deg cells with >= 50% IMD land
+B,"2018,2020,2022",ERA5,"1.5 deg (WB2 240x121, conservative from 0.25 deg)","1.5 deg, 6-37.5N 67.5-97.5E (22x21)",exact-subset,scored on 1.5 deg cells with >= 50% IMD land

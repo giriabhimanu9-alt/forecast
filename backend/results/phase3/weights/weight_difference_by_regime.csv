@@ -1,0 +1,73 @@
+method,lead_day,region,model,static_weight,weight_regime_0,level_regime_0,weight_regime_1,level_regime_1,weight_regime_2,level_regime_2,weight_regime_3,level_regime_3,spread_across_regimes,max_abs_diff_from_static,regime_specific_rows,nearly_identical_across_regimes
+extreme_aware,1,Central,ECMWF,0.507318,0.514445,regime+lead+region,0.548879,regime+lead CSI@64.5 (all India),0.458354,regime+lead CSI@64.5 (all India),0.502170,regime+lead+region,0.090525,0.048964,4,False
+extreme_aware,1,Central,GFS,0.492682,0.485555,regime+lead+region,0.451121,regime+lead CSI@64.5 (all India),0.541646,regime+lead CSI@64.5 (all India),0.497830,regime+lead+region,0.090525,0.048964,4,False
+extreme_aware,1,East,ECMWF,0.507318,0.470195,regime+lead+region,0.548879,regime+lead CSI@64.5 (all India),0.458354,regime+lead CSI@64.5 (all India),0.469760,regime+lead+region,0.090525,0.048964,4,False
+extreme_aware,1,East,GFS,0.492682,0.529805,regime+lead+region,0.451121,regime+lead CSI@64.5 (all India),0.541646,regime+lead CSI@64.5 (all India),0.530240,regime+lead+region,0.090525,0.048964,4,False
+extreme_aware,1,North,ECMWF,0.507318,0.565110,regime+lead+region,0.548879,regime+lead CSI@64.5 (all India),0.458354,regime+lead CSI@64.5 (all India),0.501216,regime+lead+region,0.106757,0.057793,4,False
+extreme_aware,1,North,GFS,0.492682,0.434890,regime+lead+region,0.451121,regime+lead CSI@64.5 (all India),0.541646,regime+lead CSI@64.5 (all India),0.498784,regime+lead+region,0.106757,0.057793,4,False
+extreme_aware,1,Northeast,ECMWF,0.507318,0.456752,regime+lead+region,0.548879,regime+lead CSI@64.5 (all India),0.458354,regime+lead CSI@64.5 (all India),0.479076,regime+lead+region,0.092127,0.050566,4,False
+extreme_aware,1,Northeast,GFS,0.492682,0.543248,regime+lead+region,0.451121,regime+lead CSI@64.5 (all India),0.541646,regime+lead CSI@64.5 (all India),0.520924,regime+lead+region,0.092127,0.050566,4,False
+extreme_aware,1,South,ECMWF,0.507318,0.455790,regime+lead+region,0.548879,regime+lead CSI@64.5 (all India),0.458354,regime+lead CSI@64.5 (all India),0.517190,regime+lead+region,0.093088,0.051527,4,False
+extreme_aware,1,South,GFS,0.492682,0.544210,regime+lead+region,0.451121,regime+lead CSI@64.5 (all India),0.541646,regime+lead CSI@64.5 (all India),0.482810,regime+lead+region,0.093088,0.051527,4,False
+extreme_aware,1,West,ECMWF,0.507318,0.520231,regime+lead+region,0.548879,regime+lead CSI@64.5 (all India),0.458354,regime+lead CSI@64.5 (all India),0.515591,regime+lead+region,0.090525,0.048964,4,False
+extreme_aware,1,West,GFS,0.492682,0.479769,regime+lead+region,0.451121,regime+lead CSI@64.5 (all India),0.541646,regime+lead CSI@64.5 (all India),0.484409,regime+lead+region,0.090525,0.048964,4,False
+extreme_aware,2,Central,ECMWF,0.498192,0.482074,regime+lead+region,0.445128,regime+lead CSI@64.5 (all India),0.376590,regime+lead CSI@64.5 (all India),0.503770,regime+lead+region,0.127180,0.121602,4,False
+extreme_aware,2,Central,GFS,0.501808,0.517926,regime+lead+region,0.554872,regime+lead CSI@64.5 (all India),0.623410,regime+lead CSI@64.5 (all India),0.496230,regime+lead+region,0.127180,0.121602,4,False
+extreme_aware,2,East,ECMWF,0.498192,0.511302,regime+lead+region,0.445128,regime+lead CSI@64.5 (all India),0.376590,regime+lead CSI@64.5 (all India),0.486317,regime+lead+region,0.134713,0.121602,4,False
+extreme_aware,2,East,GFS,0.501808,0.488698,regime+lead+region,0.554872,regime+lead CSI@64.5 (all India),0.623410,regime+lead CSI@64.5 (all India),0.513683,regime+lead+region,0.134713,0.121602,4,False
+extreme_aware,2,North,ECMWF,0.498192,0.545768,regime+lead+region,0.445128,regime+lead CSI@64.5 (all India),0.376590,regime+lead CSI@64.5 (all India),0.537010,regime+lead+region,0.169178,0.121602,4,False
+extreme_aware,2,North,GFS,0.501808,0.454232,regime+lead+region,0.554872,regime+lead CSI@64.5 (all India),0.623410,regime+lead CSI@64.5 (all India),0.462990,regime+lead+region,0.169178,0.121602,4,False
+extreme_aware,2,Northeast,ECMWF,0.498192,0.486662,regime+lead+region,0.445128,regime+lead CSI@64.5 (all India),0.376590,regime+lead CSI@64.5 (all India),0.471932,regime+lead+region,0.110073,0.121602,4,False
+extreme_aware,2,Northeast,GFS,0.501808,0.513338,regime+lead+region,0.554872,regime+lead CSI@64.5 (all India),0.623410,regime+lead CSI@64.5 (all India),0.528068,regime+lead+region,0.110073,0.121602,4,False
+extreme_aware,2,South,ECMWF,0.498192,0.462364,regime+lead+region,0.445128,regime+lead CSI@64.5 (all India),0.376590,regime+lead CSI@64.5 (all India),0.470755,regime+lead+region,0.094165,0.121602,4,False
+extreme_aware,2,South,GFS,0.501808,0.537636,regime+lead+region,0.554872,regime+lead CSI@64.5 (all India),0.623410,regime+lead CSI@64.5 (all India),0.529245,regime+lead+region,0.094165,0.121602,4,False
+extreme_aware,2,West,ECMWF,0.498192,0.477964,regime+lead+region,0.445128,regime+lead CSI@64.5 (all India),0.376590,regime+lead CSI@64.5 (all India),0.504109,regime+lead+region,0.127520,0.121602,4,False
+extreme_aware,2,West,GFS,0.501808,0.522036,regime+lead+region,0.554872,regime+lead CSI@64.5 (all India),0.623410,regime+lead CSI@64.5 (all India),0.495891,regime+lead+region,0.127520,0.121602,4,False
+extreme_aware,3,Central,ECMWF,0.496371,0.490943,regime+lead+region,0.289324,regime+lead CSI@64.5 (all India),0.788580,regime+lead CSI@64.5 (all India),0.493058,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,Central,GFS,0.503629,0.509057,regime+lead+region,0.710676,regime+lead CSI@64.5 (all India),0.211420,regime+lead CSI@64.5 (all India),0.506942,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,East,ECMWF,0.496371,0.505997,regime+lead+region,0.289324,regime+lead CSI@64.5 (all India),0.788580,regime+lead CSI@64.5 (all India),0.519794,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,East,GFS,0.503629,0.494003,regime+lead+region,0.710676,regime+lead CSI@64.5 (all India),0.211420,regime+lead CSI@64.5 (all India),0.480206,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,North,ECMWF,0.496371,0.516623,regime+lead+region,0.289324,regime+lead CSI@64.5 (all India),0.788580,regime+lead CSI@64.5 (all India),0.459803,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,North,GFS,0.503629,0.483377,regime+lead+region,0.710676,regime+lead CSI@64.5 (all India),0.211420,regime+lead CSI@64.5 (all India),0.540197,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,Northeast,ECMWF,0.496371,0.494040,regime+lead+region,0.289324,regime+lead CSI@64.5 (all India),0.788580,regime+lead CSI@64.5 (all India),0.458136,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,Northeast,GFS,0.503629,0.505960,regime+lead+region,0.710676,regime+lead CSI@64.5 (all India),0.211420,regime+lead CSI@64.5 (all India),0.541864,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,South,ECMWF,0.496371,0.459754,regime+lead+region,0.289324,regime+lead CSI@64.5 (all India),0.788580,regime+lead CSI@64.5 (all India),0.478120,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,South,GFS,0.503629,0.540246,regime+lead+region,0.710676,regime+lead CSI@64.5 (all India),0.211420,regime+lead CSI@64.5 (all India),0.521880,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,West,ECMWF,0.496371,0.508525,regime+lead+region,0.289324,regime+lead CSI@64.5 (all India),0.788580,regime+lead CSI@64.5 (all India),0.477982,regime+lead+region,0.499256,0.292210,4,False
+extreme_aware,3,West,GFS,0.503629,0.491475,regime+lead+region,0.710676,regime+lead CSI@64.5 (all India),0.211420,regime+lead CSI@64.5 (all India),0.522018,regime+lead+region,0.499256,0.292210,4,False
+regime,1,Central,ECMWF,0.507318,0.514445,regime+lead+region,0.520611,regime+lead+region,0.509739,regime+lead+region,0.502170,regime+lead+region,0.018441,0.013293,4,True
+regime,1,Central,GFS,0.492682,0.485555,regime+lead+region,0.479389,regime+lead+region,0.490261,regime+lead+region,0.497830,regime+lead+region,0.018441,0.013293,4,True
+regime,1,East,ECMWF,0.507318,0.470195,regime+lead+region,0.502402,regime+lead+region,0.484345,regime+lead+region,0.469760,regime+lead+region,0.032642,0.037557,4,False
+regime,1,East,GFS,0.492682,0.529805,regime+lead+region,0.497598,regime+lead+region,0.515655,regime+lead+region,0.530240,regime+lead+region,0.032642,0.037557,4,False
+regime,1,North,ECMWF,0.507318,0.565110,regime+lead+region,0.514154,regime+lead+region,0.541508,regime+lead+region,0.501216,regime+lead+region,0.063894,0.057793,4,False
+regime,1,North,GFS,0.492682,0.434890,regime+lead+region,0.485846,regime+lead+region,0.458492,regime+lead+region,0.498784,regime+lead+region,0.063894,0.057793,4,False
+regime,1,Northeast,ECMWF,0.507318,0.456752,regime+lead+region,0.473495,regime+lead+region,0.529133,regime+lead+region,0.479076,regime+lead+region,0.072381,0.050566,4,False
+regime,1,Northeast,GFS,0.492682,0.543248,regime+lead+region,0.526505,regime+lead+region,0.470867,regime+lead+region,0.520924,regime+lead+region,0.072381,0.050566,4,False
+regime,1,South,ECMWF,0.507318,0.455790,regime+lead+region,0.533037,regime+lead+region,0.497587,regime+lead+region,0.517190,regime+lead+region,0.077247,0.051527,4,False
+regime,1,South,GFS,0.492682,0.544210,regime+lead+region,0.466963,regime+lead+region,0.502413,regime+lead+region,0.482810,regime+lead+region,0.077247,0.051527,4,False
+regime,1,West,ECMWF,0.507318,0.520231,regime+lead+region,0.522057,regime+lead+region,0.493155,regime+lead+region,0.515591,regime+lead+region,0.028902,0.014739,4,False
+regime,1,West,GFS,0.492682,0.479769,regime+lead+region,0.477943,regime+lead+region,0.506845,regime+lead+region,0.484409,regime+lead+region,0.028902,0.014739,4,False
+regime,2,Central,ECMWF,0.498192,0.482074,regime+lead+region,0.496933,regime+lead+region,0.482890,regime+lead+region,0.503770,regime+lead+region,0.021695,0.016117,4,False
+regime,2,Central,GFS,0.501808,0.517926,regime+lead+region,0.503067,regime+lead+region,0.517110,regime+lead+region,0.496230,regime+lead+region,0.021695,0.016117,4,False
+regime,2,East,ECMWF,0.498192,0.511302,regime+lead+region,0.502016,regime+lead+region,0.494572,regime+lead+region,0.486317,regime+lead+region,0.024986,0.013110,4,False
+regime,2,East,GFS,0.501808,0.488698,regime+lead+region,0.497984,regime+lead+region,0.505428,regime+lead+region,0.513683,regime+lead+region,0.024986,0.013110,4,False
+regime,2,North,ECMWF,0.498192,0.545768,regime+lead+region,0.494634,regime+lead+region,0.527861,regime+lead+region,0.537010,regime+lead+region,0.051134,0.047576,4,False
+regime,2,North,GFS,0.501808,0.454232,regime+lead+region,0.505366,regime+lead+region,0.472139,regime+lead+region,0.462990,regime+lead+region,0.051134,0.047576,4,False
+regime,2,Northeast,ECMWF,0.498192,0.486662,regime+lead+region,0.481450,regime+lead+region,0.498804,regime+lead+region,0.471932,regime+lead+region,0.026872,0.026260,4,False
+regime,2,Northeast,GFS,0.501808,0.513338,regime+lead+region,0.518550,regime+lead+region,0.501196,regime+lead+region,0.528068,regime+lead+region,0.026872,0.026260,4,False
+regime,2,South,ECMWF,0.498192,0.462364,regime+lead+region,0.438401,regime+lead+region,0.508471,regime+lead+region,0.470755,regime+lead+region,0.070070,0.059791,4,False
+regime,2,South,GFS,0.501808,0.537636,regime+lead+region,0.561599,regime+lead+region,0.491529,regime+lead+region,0.529245,regime+lead+region,0.070070,0.059791,4,False
+regime,2,West,ECMWF,0.498192,0.477964,regime+lead+region,0.556224,regime+lead+region,0.497007,regime+lead+region,0.504109,regime+lead+region,0.078260,0.058032,4,False
+regime,2,West,GFS,0.501808,0.522036,regime+lead+region,0.443776,regime+lead+region,0.502993,regime+lead+region,0.495891,regime+lead+region,0.078260,0.058032,4,False
+regime,3,Central,ECMWF,0.496371,0.490943,regime+lead+region,0.499151,regime+lead+region,0.484569,regime+lead+region,0.493058,regime+lead+region,0.014582,0.011802,4,True
+regime,3,Central,GFS,0.503629,0.509057,regime+lead+region,0.500849,regime+lead+region,0.515431,regime+lead+region,0.506942,regime+lead+region,0.014582,0.011802,4,True
+regime,3,East,ECMWF,0.496371,0.505997,regime+lead+region,0.508893,regime+lead+region,0.534291,regime+lead+region,0.519794,regime+lead+region,0.028293,0.037920,4,False
+regime,3,East,GFS,0.503629,0.494003,regime+lead+region,0.491107,regime+lead+region,0.465709,regime+lead+region,0.480206,regime+lead+region,0.028293,0.037920,4,False
+regime,3,North,ECMWF,0.496371,0.516623,regime+lead+region,0.479221,regime+lead+region,0.535524,regime+lead+region,0.459803,regime+lead+region,0.075721,0.039153,4,False
+regime,3,North,GFS,0.503629,0.483377,regime+lead+region,0.520779,regime+lead+region,0.464476,regime+lead+region,0.540197,regime+lead+region,0.075721,0.039153,4,False
+regime,3,Northeast,ECMWF,0.496371,0.494040,regime+lead+region,0.482243,regime+lead+region,0.519910,regime+lead+region,0.458136,regime+lead+region,0.061774,0.038235,4,False
+regime,3,Northeast,GFS,0.503629,0.505960,regime+lead+region,0.517757,regime+lead+region,0.480090,regime+lead+region,0.541864,regime+lead+region,0.061774,0.038235,4,False
+regime,3,South,ECMWF,0.496371,0.459754,regime+lead+region,0.442411,regime+lead+region,0.485418,regime+lead+region,0.478120,regime+lead+region,0.043006,0.053960,4,False
+regime,3,South,GFS,0.503629,0.540246,regime+lead+region,0.557589,regime+lead+region,0.514582,regime+lead+region,0.521880,regime+lead+region,0.043006,0.053960,4,False
+regime,3,West,ECMWF,0.496371,0.508525,regime+lead+region,0.507240,regime+lead+region,0.485878,regime+lead+region,0.477982,regime+lead+region,0.030543,0.018389,4,False
+regime,3,West,GFS,0.503629,0.491475,regime+lead+region,0.492760,regime+lead+region,0.514122,regime+lead+region,0.522018,regime+lead+region,0.030543,0.018389,4,False
